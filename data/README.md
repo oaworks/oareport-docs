@@ -4,6 +4,4 @@
 This data schema is in alpha and can change with no notice.
 {% endhint %}
 
-## `doi`
-
 Coming soon
