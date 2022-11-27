@@ -71,7 +71,7 @@ Pick and choose which makes sense for you:
 
 <details>
 
-<summary>Custom ingests</summary>
+<summary>Custom data ingests</summary>
 
 
 
@@ -95,7 +95,7 @@ Pick and choose which makes sense for you:
 
 <details>
 
-<summary>Policy analysis</summary>
+<summary>Open Access policy compliance analysis</summary>
 
 
 
@@ -147,7 +147,7 @@ Your price depends on your institution's size, means, and what upgrades you want
 
 ### Learn more, and get started!
 
-[Contact us](mailto:joe@oa.works) for demos, quotes, and to get signed up.
+[Contact us](mailto:joe@oa.works) for demos, a quote, and to get signed up.
 
 
 
