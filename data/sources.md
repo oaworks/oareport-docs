@@ -22,6 +22,7 @@ We're incredibly grateful to our [data sources:](sources.md)
 We can collect data from a wide variety of institution-specific sources, including:
 
 * Grant reporting systems
+* Grant databases
 * Compliance tracking systems
 * Financial systems
 * Paid invoices
