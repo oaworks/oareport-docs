@@ -33,6 +33,7 @@ We publish the data we collect from these sources as open data, unless asked not
 
 Some data is not readily available anywhere, so we can collect it. For instance,
 
+* Institutions publishing output on preprint servers (e.g BioRxiv, MedRxiv, Research Square, SSRN) and other poorly indexed locations
 * Corresponding author email addresses
 * If articles have data availability statements
 * If articles have open data or code (with support from Dataseer)
