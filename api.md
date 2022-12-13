@@ -86,18 +86,34 @@ Coming soon: completed descriptions for all routes
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="size" type="String" %}
+The number of itemts to return
 
+__
+
+_Default_: 10
+
+Format: number
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="includes" type="String" %}
-Denotes what keys you want in your response.
+The keys you want in your response.
 
 
 
-Comma separated listed of keys, as listed in [data](data/ "mention")
+_Default_: all
+
+_Format_: Comma separated listed of keys, as listed in [data](data/ "mention")
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="sum/{key}" type="String" %}
+
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="from" %}
+
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="exclude" %}
 
 {% endswagger-parameter %}
 
@@ -188,7 +204,9 @@ supports all the parameters provided in
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="size" type="String" %}
+_Default_: 10
 
+_Format_: number, or  `all` to provide all results (up to a max of 30,000)
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="" %}
