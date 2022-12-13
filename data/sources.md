@@ -1,4 +1,4 @@
-# Data sources
+# Sources
 
 OA.reports builds on open data like OpenAlex, Crossref, and ShareYourPaper. In our paid plans, we can ingest the institution's internal data, and collect our own to help power more insights and strategies.
 

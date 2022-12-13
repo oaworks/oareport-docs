@@ -10,4 +10,4 @@ We probably are, it's nearly impossible to find everything. However, if you're o
 
 ## What formats of data can you ingest?
 
-CSV is great, JSON is good, and the best option is whatever is quick and easy for you to share. We'll take it from there.
+CSV and JSON are both good, but the best option is whatever is quick and easy for you to share. We'll take it from there.
