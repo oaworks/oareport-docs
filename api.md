@@ -69,31 +69,35 @@ Coming soon: completed descriptions for all routes
 
 {% endswagger-description %}
 
-{% swagger-parameter in="query" name="q" %}
+{% swagger-parameter in="query" name="q" type="String" %}
 
 {% endswagger-parameter %}
 
-{% swagger-parameter in="query" name="sort" %}
+{% swagger-parameter in="query" name="sort" type="String" %}
 
 {% endswagger-parameter %}
 
-{% swagger-parameter in="path" name="terms/{key}" type="" %}
+{% swagger-parameter in="path" name="terms/{key}" type="String" %}
 
 {% endswagger-parameter %}
 
-{% swagger-parameter in="path" name="count" %}
+{% swagger-parameter in="path" name="count" type="String" %}
 
 {% endswagger-parameter %}
 
-{% swagger-parameter in="query" name="size" %}
+{% swagger-parameter in="query" name="size" type="String" %}
 
 {% endswagger-parameter %}
 
-{% swagger-parameter in="query" name="includes" %}
+{% swagger-parameter in="query" name="includes" type="String" %}
+Denotes what keys you want in your response.
 
+
+
+Comma separated listed of keys, as listed in [data](data/ "mention")
 {% endswagger-parameter %}
 
-{% swagger-parameter in="path" name="sum" %}
+{% swagger-parameter in="path" name="sum/{key}" type="String" %}
 
 {% endswagger-parameter %}
 
@@ -179,7 +183,7 @@ supports all the parameters provided in
 
 {% endswagger-description %}
 
-{% swagger-parameter in="query" name="email" required="true" %}
+{% swagger-parameter in="query" name="email" required="true" type="String" %}
 
 {% endswagger-parameter %}
 
