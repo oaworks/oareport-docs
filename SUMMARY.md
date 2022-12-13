@@ -1,8 +1,8 @@
 # Table of contents
 
 * [About](README.md)
-* [Data](data/README.md)
-  * [Sources](data/sources.md)
+* [Data format](data.md)
+* [Data sources](sources.md)
 * [API](api.md)
 * [Pricing](pricing.md)
 * [Licenses](licenses.md)
