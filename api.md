@@ -170,8 +170,12 @@ Coming soon: completed descriptions for all routes
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger method="get" path="" baseUrl="https://api.oa.works/report/works.csv" summary="export a csv of works" %}
+{% swagger method="get" path="" baseUrl="https://api.oa.works/report/works.csv" summary="export a csv of works" expanded="true" %}
 {% swagger-description %}
+supports all the parameters provided in 
+
+[#get-list-of-works](api.md#get-list-of-works "mention")
+
 
 {% endswagger-description %}
 
@@ -190,8 +194,12 @@ https://static.oa.works/export/report_works_8wl6t8lkjkmji2dltjuvf.csv
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger method="get" path="" baseUrl="https://api.oa.works/report/orgs" summary="get list of organizations" %}
+{% swagger method="get" path="" baseUrl="https://api.oa.works/report/orgs" summary="get list of organizations" expanded="true" %}
 {% swagger-description %}
-parameters are as provided above
+supports all the parameters provided in 
+
+[#get-list-of-works](api.md#get-list-of-works "mention")
+
+
 {% endswagger-description %}
 {% endswagger %}
