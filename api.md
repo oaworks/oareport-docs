@@ -74,47 +74,59 @@ Coming soon: completed descriptions for all routes
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="sort" type="String" %}
+Comma-separated list of keys you want your list sorted by. The list is sorted by the order the keys are provided. Prepending `:desc` to the key to reverse the sort order for that key (`:asc` is the default).
 
+
+
+
+{% endswagger-parameter %}
+
+{% swagger-parameter in="path" name="count" type="String" %}
+shortcut to provide only the count of a queries response
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="terms/{key}" type="String" %}
 
 {% endswagger-parameter %}
 
-{% swagger-parameter in="path" name="count" type="String" %}
-
-{% endswagger-parameter %}
-
 {% swagger-parameter in="query" name="size" type="String" %}
-The number of itemts to return
+The number of items to return
 
 __
 
 _Default_: 10
 
-Format: number
+_Limit_: 10,000
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="from" type="Number" %}
+Where to start returning results from.
+
+
+
+_Default_: 0
+
+_Limit_: 10,000
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="includes" type="String" %}
-The keys you want in your response.
+Comma-separated listed of keys you want in your response.
 
 
 
 _Default_: all
-
-_Format_: Comma separated listed of keys, as listed in [data](data/ "mention")
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="sum/{key}" type="String" %}
 
 {% endswagger-parameter %}
 
-{% swagger-parameter in="query" name="from" %}
-
-{% endswagger-parameter %}
-
 {% swagger-parameter in="query" name="exclude" %}
+Comma-separated listed of keys you don't want in your response.
 
+
+
+_Default_: none
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="" %}
