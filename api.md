@@ -15,7 +15,7 @@ Coming soon: completed descriptions for all routes
 
 {% endswagger-description %}
 
-{% swagger-response status="200: OK" description="doi: "10.1038/35002501", DOI: "10.1038/35002501", subject: [ "Multidisciplinary" ], volume: "403", published_year: 2000, issue: "6772", publisher: "Springer Science and Business Media LLC", published_date: "2000-02-01", title: "Biodiversity hotspots for conservation priorities", journal: "Nature", crossref_license_url_tdm: "http://www.springer.com/tdm", crossref_is_oa: false, oa_status: "closed", has_repository_copy: false, has_oa_locations_embargoed: false, can_archive: true, version: "acceptedVersion", journal_oa_type: "transformative", oadoi_is_oa: false, is_oa: false," %}
+{% swagger-response status="200: OK" description="" %}
 {% code title="some keys omitted for brevity" %}
 ```json
 {
@@ -170,7 +170,7 @@ Coming soon: completed descriptions for all routes
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger method="get" path="" baseUrl="/report/works.csv" summary="export a csv of works" %}
+{% swagger method="get" path="" baseUrl="https://api.oa.works/report/works.csv" summary="export a csv of works" %}
 {% swagger-description %}
 
 {% endswagger-description %}
