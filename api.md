@@ -10,13 +10,13 @@ Our API allows you to search, use, and download data about research works. It's 
 This API is in alpha and can change with no notice.
 {% endhint %}
 
+{% hint style="warning" %}
+Coming soon: completed descriptions for all routes
+{% endhint %}
+
 {% swagger method="get" path="" baseUrl="https://api.oa.works/report/works/{doi}" summary="Get a single work" expanded="true" %}
 {% swagger-description %}
-e.g 
-
-[api.oa.works/report/works/10.1038/d41586-023-00175-1](https://api.oa.works/report/works/10.1038/d41586-023-00175-1)
-
-
+e.g api.oa.works/report/works/10.1038/d41586-023-00175-1
 {% endswagger-description %}
 
 {% swagger-response status="200: OK" description="DOI: "10.1038/d41586-023-00175-1", subject: [ "Multidisciplinary" ], published_year: 2023, publisher: "Springer Science and Business Media LLC", published_date: "2023-01-20", title: "Confused by open-access policies? These tools can help", journal: "Nature", crossref_license_url_tdm: "https://www.springernature.com/gp/researchers/text-and-data-mining", crossref_license_url_vor: "https://www.springernature.com/gp/researchers/text-and-data-mining", crossref_is_oa: false, oa_status: "closed", has_repository_copy: false, has_oa_locations_embargoed: false, can_archive: true, version: "acceptedVersion", journal_oa_type: "transformative", oadoi_is_oa: false, is_oa: false," %}
@@ -103,11 +103,7 @@ e.g
 
 {% swagger method="get" path="" baseUrl="https://api.oa.works/report/works/" summary="Get a list of works" expanded="true" %}
 {% swagger-description %}
-e.g 
-
-[api.oa.works/report/works?q=title:Confused by open-access policies? These tools can help](https://api.oa.works/report/works?q=title:Confused%20by%20open-access%20policies?%20These%20tools%20can%20help)
-
-
+e.g api.oa.works/report/works?q=title:Confused by open-access policies? These tools can help
 {% endswagger-description %}
 
 {% swagger-parameter in="query" name="q" type="String" %}

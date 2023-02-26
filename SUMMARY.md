@@ -10,6 +10,7 @@
 * [User accounts](your-account.md)
 * [FAQ](faq.md)
 * [Contact](contact.md)
+* [News](https://blog.oa.works/oa-report/)
 
 ## OA.Works
 
