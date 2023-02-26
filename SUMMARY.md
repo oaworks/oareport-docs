@@ -5,9 +5,9 @@
 * [Data sources](data/sources.md)
 * [API](api.md)
 * [Pricing](pricing.md)
-* [Licenses](licenses.md)
+* [Licensing](licenses.md)
 * [Our users](users.md)
-* [Your account](your-account.md)
+* [User accounts](user-accounts.md)
 * [FAQ](faq.md)
 * [Contact](contact.md)
 
