@@ -21,7 +21,7 @@ All paid plans include:
 
 <summary>Daily data updates</summary>
 
-
+Daily updates to open data, and weekly or as possible updates to custom and manually collected data.
 
 </details>
 
@@ -29,7 +29,7 @@ All paid plans include:
 
 <summary>Branded report</summary>
 
-
+A custom URL for your report
 
 </details>
 
@@ -37,7 +37,7 @@ All paid plans include:
 
 <summary>Quality assurance</summary>
 
-
+Best efforts at quality assurance, with corrections when possible to issues flagged by users.
 
 </details>
 
@@ -45,7 +45,7 @@ All paid plans include:
 
 <summary>Priority support</summary>
 
-
+Priority support with questions be acknowledged and, when possible, addressed over email within 24 hours during weekdays. Support over calls will be considered as requested.
 
 </details>
 
@@ -53,7 +53,7 @@ All paid plans include:
 
 <summary>Zero configuration</summary>
 
-
+We'll setup your report to include the required data, analyze your policy, and provide you actions to take.
 
 </details>
 
@@ -61,7 +61,11 @@ All paid plans include:
 
 <summary>In-depth analytics</summary>
 
+We'll provide deeper analysis, including:
 
+* Analysis of your publishing output including where you're publishing, on what subjects, and who is funding the work.
+* Open Access analysis providing information on if, when, where, and how papers are Open Access.
+* How many citations your works are receiving
 
 </details>
 
@@ -73,7 +77,7 @@ Pick and choose which makes sense for you:
 
 <summary>Custom data ingests</summary>
 
-
+Custom article discovery utilizing custom searches of open data, ingesting of internal data when possible, and manually collected data when possible.
 
 </details>
 
@@ -81,15 +85,7 @@ Pick and choose which makes sense for you:
 
 <summary>Grant ID and grant program analysis</summary>
 
-
-
-</details>
-
-<details>
-
-<summary>Program analysis</summary>
-
-
+Grant ID & program analysis to collect and clean Grant ID data, and then enable articles and analysis to be segmented by programs at the foundation.
 
 </details>
 
@@ -97,7 +93,7 @@ Pick and choose which makes sense for you:
 
 <summary>Open Access policy compliance analysis</summary>
 
-
+OA policy compliance analysis providing a true/false assessment of compliance on a paper-by-paper basis and for papers as a whole.
 
 </details>
 
@@ -105,7 +101,7 @@ Pick and choose which makes sense for you:
 
 <summary>Data availability statement analysis</summary>
 
-We'll review all your papers and find out how many papers have data availability statements
+Collection of data availability statements to find out how many papers have data availability statements
 
 </details>
 
@@ -113,7 +109,7 @@ We'll review all your papers and find out how many papers have data availability
 
 <summary>Open Data analysis</summary>
 
-
+Open data analysis to discover data associated with articles and assess its openness.
 
 </details>
 
@@ -121,7 +117,7 @@ We'll review all your papers and find out how many papers have data availability
 
 <summary>Open Code analysis</summary>
 
-
+Open code analysis to discover code associated with articles and assess its openness.
 
 </details>
 
@@ -129,7 +125,7 @@ We'll review all your papers and find out how many papers have data availability
 
 <summary>Custom strategies</summary>
 
-
+Customized strategies for increasing openness. Customizations can include email text, changes to which articles are targeted, and where possible new action types.
 
 </details>
 
@@ -137,7 +133,7 @@ We'll review all your papers and find out how many papers have data availability
 
 <summary>Custom insights</summary>
 
-
+Customized analysis of your data to help answer questions that matter to you.
 
 </details>
 
@@ -148,6 +144,3 @@ Your price depends on your institution's size, means, and what upgrades you want
 ### Learn more, and get started!
 
 [Contact us](mailto:joe@oa.works) for demos, a quote, and to get signed up.
-
-
-
