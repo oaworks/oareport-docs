@@ -14,4 +14,4 @@
 
 ## OA.Works
 
-* [More about OA.Works](https://oa.works)
+* [About OA.Works](https://oa.works)

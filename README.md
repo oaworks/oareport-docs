@@ -1,12 +1,8 @@
 # About
 
-OA.Report helps you discover, analyze, and unlock research your institution has funded, and your researchers have created. It's simple, free to use, and open source!
+[OA.Report](https://oa.report/) identifies research outputs organizations have supported, analyzes their openness (including OA policy compliance), and then streamlines taking action to make results more open. It's simple, free to use, and open source!
 
 ## How it works
-
-Coming soon
-
-## How it helps
 
 Coming soon
 

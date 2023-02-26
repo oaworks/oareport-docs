@@ -65,11 +65,43 @@ _Updated_: Weekly (paid), occasionally (free)
 
 #### `email`
 
+_String:_ The corresponding author's email address
+
+`email: "joe@oa.works"`
+
+{% hint style="info" %}
+Most emails are encrypted if you're not logged in and viewing email associated with your organization.
+{% endhint %}
+
+_Source:_ OA.Works\
+_Updated:_ Weekly (paid)
+
 #### `author_email_name`
+
+_String:_ The corresponding author's name for use in emails
+
+`email: "Dr.Who"`
+
+_Source:_ OA.Works\
+_Updated:_ Weekly (paid)
 
 #### `crossref_is_oa`
 
+_Boolean:_ `true`if crossref data suggests the article is free to read
+
+`crossref_is_oa: "true"`
+
+_Source:_ Crossref\
+_Updated:_ Weekly (paid), occasionally (free)
+
 #### `updated`
+
+_String: timestamp of when the record was last updated_
+
+`updated: "1675693406601"`
+
+_Source:_ OA.Works\
+_Updated:_ Weekly (paid), occasionally (free)
 
 ### `supplements`
 
@@ -98,6 +130,8 @@ _Source_: Data from Unpaywall and Europe PMC can be used to support this designa
 _Updated_: Weekly (paid), occasionally (free)
 
 #### `is_preprint`
+
+_Boolean:_ `true` if the article is on a preprint server
 
 #### `has data availability statement`
 
@@ -135,11 +169,19 @@ Updated: As requested (paid)
 
 #### `apc_cost`
 
+_String:_&#x20;
+
 #### `invoice_date`
+
+_String: Date_
 
 #### `invoice_number`
 
+_String:_&#x20;
+
 #### `invoice_year`
+
+_String:_&#x20;
 
 ### Organization specific `supplements`
 
@@ -159,7 +201,7 @@ These keys also start with `supplements.` However, they also end with an organiz
 
 #### `financial_disclosures*`
 
-#### `funding-retracted*`
+#### `remove*`
 
 ## Reused data
 
