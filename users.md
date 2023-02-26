@@ -1,8 +1,8 @@
 ---
-description: How OA.report is getting used.
+description: How OA.Report is getting used.
 ---
 
-# Users
+# Our users
 
 ## Bill & Melinda Gates Foundation
 

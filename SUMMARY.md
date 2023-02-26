@@ -6,7 +6,8 @@
 * [API](api.md)
 * [Pricing](pricing.md)
 * [Licenses](licenses.md)
-* [Users](users.md)
+* [Our users](users.md)
+* [Your account](your-account.md)
 * [FAQ](faq.md)
 * [Contact](contact.md)
 

@@ -1,3 +1,7 @@
+---
+description: Accessing OA.Report’s data
+---
+
 # API
 
 
@@ -10,7 +14,7 @@ This API is in alpha and can change with no notice.
 Coming soon: completed descriptions for all routes
 {% endhint %}
 
-{% swagger method="get" path="" baseUrl="https://api.oa.works/report/works/{doi}" summary="get single work" expanded="true" %}
+{% swagger method="get" path="" baseUrl="https://api.oa.works/report/works/{doi}" summary="Get a single work (article)" expanded="true" %}
 {% swagger-description %}
 
 {% endswagger-description %}
@@ -64,7 +68,7 @@ Coming soon: completed descriptions for all routes
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger method="get" path="" baseUrl="https://api.oa.works/report/works/" summary="get list of works" expanded="true" %}
+{% swagger method="get" path="" baseUrl="https://api.oa.works/report/works/" summary="Get a list of works (articles)" expanded="true" %}
 {% swagger-description %}
 
 {% endswagger-description %}
@@ -202,9 +206,9 @@ _Default_: none
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger method="get" path="" baseUrl="https://api.oa.works/report/works.csv" summary="export a csv of works" expanded="true" %}
+{% swagger method="get" path="" baseUrl="https://api.oa.works/report/works.csv" summary="Export a CSV of works (articles)" expanded="true" %}
 {% swagger-description %}
-supports all the parameters provided in 
+Supports all the parameters provided in 
 
 [#get-list-of-works](api.md#get-list-of-works "mention")
 
@@ -228,9 +232,9 @@ https://static.oa.works/export/report_works_8wl6t8lkjkmji2dltjuvf.csv
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger method="get" path="" baseUrl="https://api.oa.works/report/orgs" summary="get list of organizations" expanded="true" %}
+{% swagger method="get" path="" baseUrl="https://api.oa.works/report/orgs" summary="Get a list of organizations" expanded="true" %}
 {% swagger-description %}
-supports all the parameters provided in 
+Supports all the parameters provided in 
 
 [#get-list-of-works](api.md#get-list-of-works "mention")
 

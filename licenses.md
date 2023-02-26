@@ -1,11 +1,14 @@
 # Licenses
 
-OA.report is open-source and powered by open data, [just like all OA.Works' tools](https://oa.works/policies/openness/).
+OA.Report is open-source and powered by open data, [just like all of OA.Works' tools](https://oa.works/policies/openness/).
 
 ## Data
 
-Our data is licensed [CC-0.](https://creativecommons.org/share-your-work/public-domain/cc0/)
+Our data is under a [CC-0 license.](https://creativecommons.org/share-your-work/public-domain/cc0/)
 
 ## Code
 
-Find our open-source, MIT-licensed code on Github: [backend](https://github.com/oaworks/api) | [frontend](https://github.com/oaworks/oa-report)
+Find our open-source, MIT-licensed code in these two Github repositories:
+
+* [backend](https://github.com/oaworks/api)&#x20;
+* [frontend](https://github.com/oaworks/oa-report)

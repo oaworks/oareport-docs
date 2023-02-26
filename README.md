@@ -1,6 +1,6 @@
 # About
 
-OA.report helps you discover, analyze, and unlock research your institution has funded, and your researchers have created. It's simple, free to use, and open source!
+OA.Report helps you discover, analyze, and unlock research your institution has funded, and your researchers have created. It's simple, free to use, and open source!
 
 ## How it works
 
@@ -16,5 +16,5 @@ OA.report was built in [partnership with the Bill & Melinda Gates Foundation](ht
 
 ## Built at OA.Works
 
-OA.report is built by OA.Works, a non-profit project building tools so that open access is easy and equitable.
+OA.Report is built by OA.Works, a non-profit project building tools so that Open Access is easy and equitable.
 

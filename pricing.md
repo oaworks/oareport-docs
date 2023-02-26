@@ -1,10 +1,14 @@
+---
+description: We have a two-tiered product plan
+---
+
 # Pricing
 
 {% hint style="warning" %}
 Coming soon: more information for each of the features listed below.
 {% endhint %}
 
-We provide a free plan to help OAreport achieve our mission, and a paid plan to enable us to sustain our work and do work that can't be done for free for everyone.
+We provide a free plan to help OA.Report achieve our mission, and a paid plan to enable us to sustain our work and do work that can't be done for free for everyone.
 
 ## Free
 
