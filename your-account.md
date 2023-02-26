@@ -1,4 +1,4 @@
-# Your account
+# User accounts
 
 When you sign up for OA.Report, we'll send you a “magic” login link that allows anyone who clicks it to access [private parts of ](#user-content-fn-1)[^1]your report, including insights, in-depth analytics, and strategies.
 

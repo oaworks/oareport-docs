@@ -1,7 +1,3 @@
----
-description: We have a two-tiered product plan
----
-
 # Pricing
 
 {% hint style="warning" %}
@@ -69,7 +65,7 @@ All paid plans include:
 
 </details>
 
-### Upgrades
+### Add-ons
 
 Pick and choose which makes sense for you:
 

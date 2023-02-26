@@ -7,7 +7,7 @@
 * [Pricing](pricing.md)
 * [Licensing](licenses.md)
 * [Our users](users.md)
-* [User accounts](user-accounts.md)
+* [User accounts](your-account.md)
 * [FAQ](faq.md)
 * [Contact](contact.md)
 
