@@ -1,5 +1,9 @@
 # About
 
+{% hint style="info" %}
+All our documentation is a work in progress, [we'd love your feedback](mailto:joe@oa.works)!
+{% endhint %}
+
 [OA.Report](https://oa.report/) identifies research outputs organizations have supported, analyzes their openness (including OA policy compliance), and then streamlines taking action to make results more open. It's simple, free to use, and open source!
 
 <figure><img src=".gitbook/assets/ICOR Feb 13th one slide.png" alt=""><figcaption></figcaption></figure>
