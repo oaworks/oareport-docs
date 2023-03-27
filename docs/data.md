@@ -247,6 +247,8 @@ _String: The invoice number provided on the invoice_
 _Source:_ OA.Works\
 _Updated:_ Weekly (paid)
 
+
+
 ### Organization specific `supplements`
 
 These keys also start with `supplements.` However, they also end with an organization's name or acronym to provide organization-specific data. For instance: `supplements.grantid__bmgf`.
@@ -335,8 +337,7 @@ See [OpenAlex's documentation](https://docs.openalex.org/about-the-data/work#tit
 * `issue`
 * `PMCID`
 * `is_retracted`
-* is\_paratext
-* is\_retracted
+* `is_paratext`
 * `is_oa`
 * `published_date`
 * `published_year`
