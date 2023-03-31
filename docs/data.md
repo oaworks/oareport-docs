@@ -50,9 +50,9 @@ Values include:
 _Source_: OA.Works\
 _Updated_: Daily (paid), occasionally (free)
 
-#### `pmc_has_data_availability_statement`
+#### `has_data_availability_statement`
 
-_Boolean:_ `true` if PMC reports the article as having a data availability statement.
+_Boolean:_ `true` if the article has a data availability (or, resource availability) statement.
 
 _Source_: PMC\
 _Updated_: Weekly (paid), occasionally (free)
