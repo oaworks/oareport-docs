@@ -212,13 +212,6 @@ _String:_ URL(s) found associated with the work (could be for a dataset, codebas
 Source: OA.Works.\
 Updated: As requested (paid)
 
-#### `fundingstatement`
-
-_String:_ full-text of funding statement
-
-_Source:_ OA.Works\
-_Updated:_ Weekly (paid)
-
 #### `apc_cost`
 
 _String:_ the APC cost in USD
@@ -305,6 +298,13 @@ _Updated:_ Weekly (paid)
 #### `remove*`
 
 _Boolean:_ `true` if this work should be removed from an organization's results for any reason
+
+_Source:_ OA.Works\
+_Updated:_ Weekly (paid)
+
+#### `fundingstatement*`
+
+_String:_ full-text of funding statement
 
 _Source:_ OA.Works\
 _Updated:_ Weekly (paid)
