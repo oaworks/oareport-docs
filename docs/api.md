@@ -6,10 +6,6 @@ description: Accessing OA.Report’s data
 
 Our API allows you to search, use, and download data about research works. It's a RESTful JSON API powered by Elasticsearch.
 
-{% hint style="danger" %}
-This API is in alpha and can change with no notice.
-{% endhint %}
-
 {% swagger method="get" path="" baseUrl="https://api.oa.works/report/works/{doi}" summary="Get a single work" expanded="true" %}
 {% swagger-description %}
 e.g 
