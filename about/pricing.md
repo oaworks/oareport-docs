@@ -8,10 +8,10 @@ We provide a free plan to help OA.Report achieve our mission, and a paid plan to
 
 ## Free
 
-* Insights about your institution's output
-* Strategies to increase your institution's openness
-* Access to metadata (as CSV, and JSON)
-* Occasional updates to data (\~ 4 times a year)
+* Insights about your institution’s output
+* Strategies to increase your institution’s openness
+* Access to metadata (in CSV and JSON formats)
+* Occasional updates to data (approximately 4 times a year)
 
 ## Paid
 

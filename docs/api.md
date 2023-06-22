@@ -133,7 +133,7 @@ lists number of occurances of each string in the provided key
 {% swagger-parameter in="query" name="size" type="String" %}
 The number of items to return
 
-__
+
 
 _Default_: 10
 

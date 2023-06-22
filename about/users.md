@@ -12,10 +12,14 @@ description: How OA.Report is getting used.
 
 {% embed url="https://twitter.com/OA_Works/status/1584593162995372032" %}
 
-## Templeton World Charity Foundation
+## Howard Hughes Medical Institute
 
-{% embed url="https://twitter.com/OA_Works/status/1584844523561443328" %}
+{% embed url="https://twitter.com/maw_tweets/status/1639265602975027201" %}
 
 ## Robert Wood Johnson Foundation
 
 {% embed url="https://twitter.com/OA_Works/status/1590010326434557952" %}
+
+## Templeton World Charity Foundation
+
+{% embed url="https://twitter.com/OA_Works/status/1584844523561443328" %}
