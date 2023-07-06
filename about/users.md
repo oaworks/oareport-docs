@@ -8,6 +8,14 @@ description: How OA.Report is getting used.
 
 {% embed url="https://twitter.com/OA_Works/status/1585644869678419979" %}
 
+## Wellcome
+
+{% embed url="https://twitter.com/OA_Works/status/1675892137227874306?s=20" %}
+
+## Michael J. Fox Foundation
+
+{% embed url="https://twitter.com/OA_Works/status/1673322772175503364?s=20" %}
+
 ## Aligning Science Across Parkinsons
 
 {% embed url="https://twitter.com/OA_Works/status/1584593162995372032" %}
