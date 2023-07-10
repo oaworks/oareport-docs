@@ -14,7 +14,7 @@ description: How OA.Report is getting used.
 
 ## Michael J. Fox Foundation
 
-{% embed url="https://twitter.com/OA_Works/status/1673322772175503364?s=20" %}
+{% embed url="https://twitter.com/OA_Works/status/1673322772175503364" %}
 
 ## Aligning Science Across Parkinsons
 
