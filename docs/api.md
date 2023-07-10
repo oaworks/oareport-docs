@@ -101,7 +101,7 @@ e.g
 {% swagger-description %}
 e.g 
 
-[api.oa.works/report/works?q=title:Confused by open-access policies? These tools can help](https://api.oa.works/report/works?q=title:Confused%20by%20open-access%20policies?%20These%20tools%20can%20help)
+[https://api.oa.works/report/works?q=title:%22Confused%20by%20open%20access%20policies%20These%20tools%20can%20help%22](https://api.oa.works/report/works?q=title:%22Confused%20by%20open%20access%20policies%20These%20tools%20can%20help%22)
 
 
 {% endswagger-description %}
