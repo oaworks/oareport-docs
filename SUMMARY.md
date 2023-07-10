@@ -8,11 +8,11 @@
 * [Our users](about/users.md)
 * [News](https://blog.oa.works/oa-report/)
 
-## How it works
+## How it works (coming soon)
 
-* [Tracking outputs](how-it-works/tracking-outputs.md)
-* [Insights](how-it-works/insights.md)
-* [Strategies](how-it-works/strategies.md)
+* [Tracking outputs](how-it-works-coming-soon/tracking-outputs.md)
+* [Insights](how-it-works-coming-soon/insights.md)
+* [Strategies](how-it-works-coming-soon/strategies.md)
 
 ## docs
 
