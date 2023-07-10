@@ -20,7 +20,7 @@
 * [Data sources](docs/sources.md)
 * [API](docs/api.md)
 * [User accounts](docs/user-accounts.md)
-* [How to get data into OA.Report](docs/how-to-get-data-into-oa.report.md)
+* [How to get your data into OA.Report](docs/how-to-get-data-into-oa.report.md)
 
 ## Help
 
