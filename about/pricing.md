@@ -9,9 +9,9 @@ We provide a free plan to help OA.Report achieve our mission, and a paid plan to
 * Access to metadata (in CSV and JSON formats)
 * Occasional updates to data (approximately 4 times a year)
 
-## Paid
+## Premium
 
-All paid plans include:
+All premium plans include:
 
 <details>
 
