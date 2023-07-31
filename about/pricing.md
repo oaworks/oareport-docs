@@ -1,6 +1,6 @@
 # Pricing
 
-We provide a free plan to help OA.Report achieve our mission, and a paid plan to enable us to sustain our work and do work that can't be done for free for everyone.
+We provide a free plan to help OA.Report achieve our mission, and a premium plan to enable us to sustain our work and do work that can't be done for free for everyone.
 
 ## Free
 

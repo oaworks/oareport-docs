@@ -1,10 +1,10 @@
-# Sources
+# Data sources
 
-OA.reports builds on open data like OpenAlex, Crossref, and ShareYourPaper. In our paid plans, we can ingest the institution's internal data, and collect our own to help power more insights and strategies.
+OA.reports builds on open data like OpenAlex, Crossref, and ShareYourPaper. In our premium plans, we can ingest the institution's internal data, and collect our own to help power more insights and strategies.
 
-## Open Sources
+## Open scholarly metadata sources
 
-We're incredibly grateful to our [data sources:](sources.md)
+Thanks to all these services for sharing open data we can build off:
 
 * [Crossref](https://crossref.org/)
 * [Unpaywall](https://unpaywall.org/)
@@ -16,35 +16,39 @@ We're incredibly grateful to our [data sources:](sources.md)
 * [Pubmed](https://www.ncbi.nlm.nih.gov/pmc/)
 * [Pubmed Central](https://pubmed.ncbi.nlm.nih.gov/)
 * [ROR (Research Organization Registry)](https://ror.org/)
+* [Datacite](https://datacite.org/)
 
 ## Institution's data
 
-We can collect data from a wide variety of institution-specific sources, including:
+We clean & ingest data from a wide variety of institution-specific sources, including:
 
 * Grant reporting systems
 * Grant databases
 * Compliance tracking systems
 * Financial systems
-* Paid invoices
+* APC invoices
 * Publisher payment dashboards
 
-We publish the data we collect from these sources as open data, unless asked not to.
+## Data we collect
 
-## Data we create
+We collect data that isn't readily available elsewhere, including:
 
-Some data is not readily available anywhere, so we can collect it. For instance,
-
-* Institutions publishing output on preprint servers (e.g BioRxiv, MedRxiv, Research Square, SSRN) and other poorly indexed locations
-* Corresponding author email addresses
-* If articles have data availability statements
-* If articles have open data or code (with support from Dataseer)
+* Grant IDs
+* Acknowledgement sections
+* Corresponding author's email addresses
+* Data availability statements
+* Data & code licences
 * Submitted/accepted dates
+* Article type (e.g review, correspondence, etc)
 
-We publish the data we collect from these sources as open data.
+## Integrations
 
+We do direct integrations with some services when they're not well included in [open scholarly metadata sources](sources.md#open-scholarly-metadata-sources), including:
 
-
-
-
-##
-
+* Figshare
+* Dataseer
+* Github
+* OSF
+* Dataverse
+* Bing
+* bioRxiv & medRxiv
