@@ -26,6 +26,7 @@
 
 * [FAQ](help/faq.md)
 * [Accessibility statement](help/accessibility-statement.md)
+* [Known issues](help/known-issues.md)
 * [Report an issue](help/contact.md)
 * [Status](https://status.oa.report)
 
