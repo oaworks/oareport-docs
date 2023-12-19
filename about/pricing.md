@@ -139,4 +139,4 @@ Your price depends on your institution's size, means, and what upgrades you want
 
 ### Learn more, and get started!
 
-[Contact us](mailto:joe@oa.works) for demos, a quote, and to get signed up.
+[Contact us](mailto:joe.mcarthur@oa.works) for demos, a quote, and to get signed up.

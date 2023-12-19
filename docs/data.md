@@ -68,7 +68,7 @@ _Updated_: Weekly (premium), occasionally (free)
 
 _String:_ The corresponding author's email address
 
-`email: "joe@oa.works"`
+`email: "example@place.edu"`
 
 {% hint style="info" %}
 Most emails are encrypted if you're not logged in and viewing emails associated with your organization.
