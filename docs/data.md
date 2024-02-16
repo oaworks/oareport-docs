@@ -135,6 +135,22 @@ _Boolean:_ `true` if the article is on a preprint server
 _Source:_ OA.Works\
 _Updated:_ Weekly (premium)
 
+#### `has_preprint_copy`
+
+_Boolean:_ `true` if the article has a version on a preprint server
+
+_Source:_ OA.Works\
+_Updated:_ Weekly (premium)
+
+#### `preprint_doi`
+
+_String:_ The doi of the article's preprint
+
+`preprint_doi: "10.21203/rs.3.rs-805463/v1"`
+
+_Source:_ OA.Works\
+_Updated:_ Weekly (premium)
+
 #### `has data availability statement`
 
 _Boolean:_ `true` if the work has a data or resource availability statement
