@@ -30,7 +30,7 @@ _Updated_: Daily (premium), occasionally (free)
 
 #### `journal_oa_type`
 
-_String:_ The journal's OA type.
+_String:_ The journal’s OA type.
 
 {% hint style="info" %}
 Think of this as [`oa_status`](https://unpaywall.org/data-format)for a journal.
@@ -38,11 +38,11 @@ Think of this as [`oa_status`](https://unpaywall.org/data-format)for a journal.
 
 Values include:
 
-* `gold`: The journal's whole output is published Open Access.
+* `gold`: The journal’s whole output is published Open Access.
 * `hybrid`: The journal allows some articles to be published Open Access.
 * `transformative`: The journal allows some articles to be published Open Access, and is listed by Coalition S as a transformative journal.
 * `diamond` : The journal whole output is published Open Access. with no APC
-* `closed`: The journal's output is entirely behind a paywall, or bronze.
+* `closed`: The journal’s output is entirely behind a paywall, or bronze.
 * `not applicable:` Used when the work is not in a journal (typically, a pre-print)
 
 `journal_oa_type: "diamond"`
@@ -66,12 +66,12 @@ _Updated_: Weekly (premium), occasionally (free)
 
 #### `email`
 
-_String:_ The corresponding author's email address
+_String:_ The corresponding author’s email address
 
 `email: "example@place.edu"`
 
 {% hint style="info" %}
-Most emails are encrypted if you're not logged in and viewing emails associated with your organization.
+Most emails are encrypted if you’re not logged in and viewing emails associated with your organization.
 {% endhint %}
 
 _Source:_ OA.Works\
@@ -79,7 +79,7 @@ _Updated:_ Weekly (premium)
 
 #### `author_email_name`
 
-_String:_ The corresponding author's name for use in emails
+_String:_ The corresponding author’s name for use in emails
 
 `email: "Dr.Who"`
 
@@ -107,7 +107,7 @@ _Updated:_ Weekly (premium), occasionally (free)
 Each of these keys is found in the `supplements` object.
 
 {% hint style="info" %}
-While the name suggests these are secondary, they're in fact, critical to OA.Report. They were given this name as they "supplement" the open data, and have nothing to do with supplemental information you might find in a research article.
+While the name suggests these are secondary, they’re in fact, critical to OA.Report. They were given this name as they "supplement" the open data, and have nothing to do with supplemental information you might find in a research article.
 {% endhint %}
 
 #### `publisher_license_best`
@@ -144,7 +144,7 @@ _Updated:_ Weekly (premium)
 
 #### `preprint_doi`
 
-_String:_ The doi of the article's preprint
+_String:_ The doi of the article’s preprint
 
 `preprint_doi: "10.21203/rs.3.rs-805463/v1"`
 
@@ -263,9 +263,9 @@ _String: The invoice number provided on the invoice_
 _Source:_ OA.Works\
 _Updated:_ Weekly (premium)
 
-### Organization specific `supplements`
+### Organization-specific `supplements`
 
-These keys also start with `supplements.` However, they also end with an organization's name or acronym to provide organization-specific data. For instance: `supplements.grantid__bmgf`.
+These keys also start with `supplements.` However, they also end with an organization’s name or acronym to provide organization-specific data. For instance: `supplements.grantid__bmgf`.
 
 #### `grantid*`
 
@@ -276,14 +276,14 @@ _Updated:_ Weekly (premium)
 
 #### `is_compliant*`
 
-_Boolean:_ `true` if the work is compliant with the organization's Open Access policy
+_Boolean:_ `true` if the work is compliant with the organization’s Open Access policy
 
 _Source:_ OA.Works\
 _Updated:_ Weekly (premium)
 
 #### `is_covered_by_policy`
 
-_Boolean:_ `true` if the work is covered under the organization's Open Access policy
+_Boolean:_ `true` if the work is covered under the organization’s Open Access policy
 
 _Source:_ OA.Works\
 _Updated:_ Weekly (premium)
@@ -311,14 +311,14 @@ _Updated:_ Weekly (premium)
 
 #### `financial_disclosures*`
 
-_Boolean:_ `true` if this work's funding statement is actually a financial disclosure
+_Boolean:_ `true` if this work’s funding statement is actually a financial disclosure
 
 _Source:_ OA.Works\
 _Updated:_ Weekly (premium)
 
 #### `remove*`
 
-_Boolean:_ `true` if this work should be removed from an organization's results for any reason
+_Boolean:_ `true` if this work should be removed from an organization’s results for any reason
 
 _Source:_ OA.Works\
 _Updated:_ Weekly (premium)
@@ -332,9 +332,9 @@ _Updated:_ Weekly (premium)
 
 ## Reused data
 
-Open sources do a fantastic job of providing a lot of the core metadata used by OA.Report.
+Open sources provide much of the core metadata used by OA.Report.
 
-See Crossref's documentation for the following keys:
+See Crossref’s documentation for the following keys:
 
 * `funder`
   * `name`
@@ -346,7 +346,7 @@ See Crossref's documentation for the following keys:
 Note: Crossref is not our only source of funding data. However, it is the best source of open, structured data.
 {% endhint %}
 
-See [OpenAlex's documentation](https://docs.openalex.org/about-the-data/work#title) for the following keys:
+See [OpenAlex’s documentation](https://docs.openalex.org/about-the-data/work#title) for the following keys:
 
 * `doi`
 * `title`
@@ -381,17 +381,17 @@ See [OpenAlex's documentation](https://docs.openalex.org/about-the-data/work#tit
   * `score`
 
 {% hint style="info" %}
-We use equivalent Crossref data where OpenAlex data isn't yet available to provide up-to-date results. In some cases, such as \`PMCID\` we use other sources to provide more complete coverage.
+We use equivalent Crossref data where OpenAlex data isn’t yet available to provide up-to-date results. In some cases, such as \`PMCID\`, we use other sources to provide more complete coverage.
 {% endhint %}
 
-See [Unpaywall's documentation](https://unpaywall.org/data-format) for the following keys:
+See [Unpaywall’s documentation](https://unpaywall.org/data-format) for the following keys:
 
 * `oadoi_is_oa` (see `` `is_oa` ``)
 * `oa_status`
 * `has_repository_copy`
 * `has_oa_locations_embargoed`
 
-In the below `host_type` is prepended to a key as a helpful simplification over Unpaywall's `oa_locations` data:
+In the below, `host_type` is prepended to a key as a helpful simplification over Unpaywall’s `oa_locations` data:
 
 * `publisher_version`
 * `publisher_license`
