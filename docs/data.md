@@ -8,333 +8,11 @@ OA.Report collects data on scholarly works such as papers, preprints, datasets, 
 
 For an example of a record with most of the possible fields, go to [https://api.oa.works/report/works/10.1016/j.ijid.2020.05.122](https://beta.oa.works/report/works/10.1016/j.ijid.2020.05.122)
 
-## Generated data
+## Data reused from external sources
 
-#### `can_archive`
+Open sources provide much of the core metadata used by OA.Report.
 
-_Boolean:_ `True` if the work can be self-archived in a repository.
-
-_Source_: [ShareYourPaper Permissions](https://shareyourpaper.org/permissions)\
-_Updated_: Daily (premium), occasionally (free)
-
-#### `version`
-
-_String:_ What version of the work can be self-archived in a repository?
-
-`can_archive: "acceptedVersion"`
-
-Values are based on the [DRIVER Guidelines versioning scheme.](https://wiki.surfnet.nl/display/DRIVERguidelines/DRIVER-VERSION+Mappings)
-
-_Source_: [ShareYourPaper Permissions](https://shareyourpaper.org/permissions)\
-_Updated_: Daily (premium), occasionally (free)
-
-#### `journal_oa_type`
-
-_String:_ The journal's OA type.
-
-{% hint style="info" %}
-Think of this as [`oa_status`](https://unpaywall.org/data-format)for a journal.
-{% endhint %}
-
-Values include:
-
-* `gold`: The journal's whole output is published Open Access.
-* `hybrid`: The journal allows some articles to be published Open Access.
-* `transformative`: The journal allows some articles to be published Open Access, and is listed by Coalition S as a transformative journal.
-* `diamond` : The journal whole output is published Open Access. with no APC
-* `closed`: The journal's output is entirely behind a paywall, or bronze.
-* `not applicable:` Used when the work is not in a journal (typically, a pre-print)
-
-`journal_oa_type: "diamond"`
-
-_Source_: OA.Works\
-_Updated_: Daily (premium), occasionally (free)
-
-#### `pmc_has_data_availability_statement`
-
-_Boolean:_ `true` if PMC reports the article as having a data availability statement.
-
-_Source_: PMC\
-_Updated_: Weekly (premium), occasionally (free)
-
-#### `has_data_availability_statement`
-
-_Boolean:_ `true` if the article has a data availability (or, resource availability) statement.
-
-_Source_: PMC\
-_Updated_: Weekly (premium), occasionally (free)
-
-#### `email`
-
-_String:_ The corresponding author's email address
-
-`email: "example@place.edu"`
-
-{% hint style="info" %}
-Most emails are encrypted if you're not logged in and viewing emails associated with your organization.
-{% endhint %}
-
-_Source:_ OA.Works\
-_Updated:_ Weekly (premium)
-
-#### `author_email_name`
-
-_String:_ The corresponding author's name for use in emails
-
-`email: "Dr.Who"`
-
-_Source:_ OA.Works\
-_Updated:_ Weekly (premium)
-
-#### `crossref_is_oa`
-
-_Boolean:_ `true` if crossref data suggests the article is free to read
-
-_Source:_ Crossref\
-_Updated:_ Weekly (premium), occasionally (free)
-
-#### `updated`
-
-_String: timestamp of when the record was last updated_
-
-`updated: "1675693406601"`
-
-_Source:_ OA.Works\
-_Updated:_ Weekly (premium), occasionally (free)
-
-### `Supplements`
-
-Each of these keys is found in the `supplements` object.
-
-{% hint style="info" %}
-While the name suggests these are secondary, they're in fact, critical to OA.Report. They were given this name as they "supplement" the open data, and have nothing to do with supplemental information you might find in a research article.
-{% endhint %}
-
-#### `publisher_license_best`
-
-_String:_ The license applied to this work by the publisher as best we can determine.
-
-`publisher_license_best: "cc-by"`
-
-_Source_: Unpaywall, CrossRef, and manual collection can be used to support this designation.\
-_Updated_: Weekly (premium), occasionally (free)
-
-#### `repository_license_best`
-
-_String:_ The license applied to this work by the repository as best we can determine.
-
-`publisher_license_best: "cc-by"`
-
-_Source_: Data from Unpaywall and Europe PMC can be used to support this designation.\
-_Updated_: Weekly (premium), occasionally (free)
-
-#### `is_preprint`
-
-_Boolean:_ `true` if the article is on a preprint server
-
-_Source:_ OA.Works\
-_Updated:_ Weekly (premium)
-
-#### `has_preprint_copy`
-
-_Boolean:_ `true` if the article has a version on a preprint server
-
-_Source:_ OA.Works\
-_Updated:_ Weekly (premium)
-
-#### `preprint_doi`
-
-_String:_ The doi of the article's preprint
-
-`preprint_doi: "10.21203/rs.3.rs-805463/v1"`
-
-_Source:_ OA.Works\
-_Updated:_ Weekly (premium)
-
-#### `has data availability statement`
-
-_Boolean:_ `true` if the work has a data or resource availability statement
-
-_Source:_ OA.Works\
-_Updated:_ Weekly (premium)
-
-#### `has_made_data`
-
-_Boolean:_ `true` if the article uses data the authors made in the process of research
-
-Source: Dataseer\
-Updated: As requested (premium)
-
-#### `has_shared_data`
-
-_Boolean:_ `true` if the article shared the data in some location (e.g in the supplements, the article itself, a data repository, their website)
-
-Source: Dataseer\
-Updated: As requested (premium)
-
-#### `has_open_data`
-
-_Boolean:_ `true` if the authors shared their data and licensed it cc-by or cc-0.
-
-Source: OA.Works.\
-Updated: As requested (premium)
-
-#### `has_reused_data`
-
-_Boolean:_ `true` if the work relies on data not created by the authors
-
-Source: Dataseer\
-Updated: As requested (premium)
-
-#### `has_made_code`
-
-_Boolean:_ `true` if the article uses code the authors made in the process of research
-
-Source: Dataseer\
-Updated: As requested (premium)
-
-#### `has_shared_code`
-
-_Boolean:_ `true` if the article shared the code in some location (e.g in the supplements, the article itself, a data repository, their website)
-
-Source: Dataseer\
-Updated: As requested (premium)
-
-#### `has_open_code`
-
-_Boolean:_ `true` if the authors shared their data and licensed it under a permissive open source licence (e.g MIT)
-
-Source: OA.Works.\
-Updated: As requested (premium)
-
-#### `resource_doi`
-
-_String:_ DOI(s) found associated with the work (could be for a dataset, codebase, or something else)
-
-Source: OA.Works.\
-Updated: As requested (premium)
-
-#### `resource_licence`
-
-_String:_ licence found associated to supporting resources (could be for a dataset, codebase, or something else)
-
-Source: OA.Works.\
-Updated: As requested (premium)
-
-#### `resource_location_name`
-
-_String:_ location(s) of supporting resource(s)
-
-Source: OA.Works.\
-Updated: As requested (premium)
-
-#### `resource_location_url`
-
-_String:_ URL(s) found associated with the work (could be for a dataset, codebase, or something else)
-
-Source: OA.Works.\
-Updated: As requested (premium)
-
-#### `apc_cost`
-
-_String:_ the APC cost in USD
-
-_Source:_ OA.Works\
-_Updated:_ Weekly (premium)
-
-#### `invoice_date`
-
-_String: Date an APC invoice was issued_
-
-_Source:_ OA.Works\
-_Updated:_ Weekly (premium)
-
-#### `invoice_year`
-
-_String: Year an APC invoice was issued_
-
-_Source:_ OA.Works\
-_Updated:_ Weekly (premium)
-
-#### `invoice_number`
-
-_String: The invoice number provided on the invoice_
-
-_Source:_ OA.Works\
-_Updated:_ Weekly (premium)
-
-### Organization specific `supplements`
-
-These keys also start with `supplements.` However, they also end with an organization's name or acronym to provide organization-specific data. For instance: `supplements.grantid__bmgf`.
-
-#### `grantid*`
-
-_String:_ The grant ID(s) associated with the work
-
-_Source:_ OA.Works, Crossref\
-_Updated:_ Weekly (premium)
-
-#### `is_compliant*`
-
-_Boolean:_ `true` if the work is compliant with the organization's Open Access policy
-
-_Source:_ OA.Works\
-_Updated:_ Weekly (premium)
-
-#### `is_covered_by_policy`
-
-_Boolean:_ `true` if the work is covered under the organization's Open Access policy
-
-_Source:_ OA.Works\
-_Updated:_ Weekly (premium)
-
-#### `is_new*`
-
-_Boolean:_ `true` if the work has been added since the last time we sent the user a report
-
-_Source:_ OA.Works\
-_Updated:_ Weekly (premium)
-
-#### `program*`
-
-_String:_ the grant program the work was supported by
-
-_Source:_ OA.Works\
-_Updated:_ Weekly (premium)
-
-#### `is_approved_repository*`
-
-_Boolean:_ `true` if this work is deposited in an approved repository under the Open Access policy
-
-_Source:_ OA.Works\
-_Updated:_ Weekly (premium)
-
-#### `financial_disclosures*`
-
-_Boolean:_ `true` if this work's funding statement is actually a financial disclosure
-
-_Source:_ OA.Works\
-_Updated:_ Weekly (premium)
-
-#### `remove*`
-
-_Boolean:_ `true` if this work should be removed from an organization's results for any reason
-
-_Source:_ OA.Works\
-_Updated:_ Weekly (premium)
-
-#### `fundingstatement*`
-
-_String:_ full-text of funding statement
-
-_Source:_ OA.Works\
-_Updated:_ Weekly (premium)
-
-## Reused data
-
-Open sources do a fantastic job of providing a lot of the core metadata used by OA.Report.
-
-See Crossref's documentation for the following keys:
+See Crossref’s documentation for the following keys:
 
 * `funder`
   * `name`
@@ -346,7 +24,7 @@ See Crossref's documentation for the following keys:
 Note: Crossref is not our only source of funding data. However, it is the best source of open, structured data.
 {% endhint %}
 
-See [OpenAlex's documentation](https://docs.openalex.org/about-the-data/work#title) for the following keys:
+See [OpenAlex’s documentation](https://docs.openalex.org/about-the-data/work#title) for the following keys:
 
 * `doi`
 * `title`
@@ -381,17 +59,17 @@ See [OpenAlex's documentation](https://docs.openalex.org/about-the-data/work#tit
   * `score`
 
 {% hint style="info" %}
-We use equivalent Crossref data where OpenAlex data isn't yet available to provide up-to-date results. In some cases, such as \`PMCID\` we use other sources to provide more complete coverage.
+We use equivalent Crossref data where OpenAlex data isn’t yet available to provide up-to-date results. In some cases, such as \`PMCID\`, we use other sources to provide more complete coverage.
 {% endhint %}
 
-See [Unpaywall's documentation](https://unpaywall.org/data-format) for the following keys:
+See [Unpaywall’s documentation](https://unpaywall.org/data-format) for the following keys:
 
 * `oadoi_is_oa` (see `` `is_oa` ``)
 * `oa_status`
 * `has_repository_copy`
 * `has_oa_locations_embargoed`
 
-In the below `host_type` is prepended to a key as a helpful simplification over Unpaywall's `oa_locations` data:
+In the below, `host_type` is prepended to a key as a helpful simplification over Unpaywall’s `oa_locations` data:
 
 * `publisher_version`
 * `publisher_license`
