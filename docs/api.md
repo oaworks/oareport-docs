@@ -6,16 +6,14 @@ description: Accessing OA.Report’s data
 
 Our API allows you to search, use, and download data about research works. It's a RESTful JSON API powered by Elasticsearch.
 
-{% swagger method="get" path="" baseUrl="https://api.oa.works/report/works/{doi}" summary="Get a single work" expanded="true" %}
-{% swagger-description %}
-e.g 
+## Get a single work
 
-[api.oa.works/report/works/10.1038/d41586-023-00175-1](https://api.oa.works/report/works/10.1038/d41586-023-00175-1)
+<mark style="color:blue;">`GET`</mark> `https://api.oa.works/report/works/{doi}`
 
+e.g [api.oa.works/report/works/10.1038/d41586-023-00175-1](https://api.oa.works/report/works/10.1038/d41586-023-00175-1)
 
-{% endswagger-description %}
-
-{% swagger-response status="200: OK" description="DOI: "10.1038/d41586-023-00175-1", subject: [ "Multidisciplinary" ], published_year: 2023, publisher: "Springer Science and Business Media LLC", published_date: "2023-01-20", title: "Confused by open-access policies? These tools can help", journal: "Nature", crossref_license_url_tdm: "https://www.springernature.com/gp/researchers/text-and-data-mining", crossref_license_url_vor: "https://www.springernature.com/gp/researchers/text-and-data-mining", crossref_is_oa: false, oa_status: "closed", has_repository_copy: false, has_oa_locations_embargoed: false, can_archive: true, version: "acceptedVersion", journal_oa_type: "transformative", oadoi_is_oa: false, is_oa: false," %}
+{% tabs %}
+{% tab title="200: OK DOI: "10.1038/d41586-023-00175-1", subject: [ "Multidisciplinary" ], published_year: 2023, publisher: "Springer Science and Business Media LLC", published_date: "2023-01-20", title: "Confused by open-access policies? These tools can help", journal: "Nature", crossref_license_url_tdm: "https://www.springernature.com/gp/researchers/text-and-data-mining", crossref_license_url_vor: "https://www.springernature.com/gp/researchers/text-and-data-mining", crossref_is_oa: false, oa_status: "closed", has_repository_copy: false, has_oa_locations_embargoed: false, can_archive: true, version: "acceptedVersion", journal_oa_type: "transformative", oadoi_is_oa: false, is_oa: false," %}
 {% code title="some keys omitted for brevity" %}
 ```json
 {
@@ -94,87 +92,37 @@ e.g
 }
 ```
 {% endcode %}
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="get" path="" baseUrl="https://api.oa.works/report/works/" summary="Get a list of works" expanded="true" %}
-{% swagger-description %}
-e.g 
+## Get a list of works
 
-[https://api.oa.works/report/works?q=title:%22Confused%20by%20open%20access%20policies%20These%20tools%20can%20help%22](https://api.oa.works/report/works?q=title:%22Confused%20by%20open%20access%20policies%20These%20tools%20can%20help%22)
+<mark style="color:blue;">`GET`</mark> `https://api.oa.works/report/works/`
 
+e.g [https://api.oa.works/report/works?q=title:%22Confused%20by%20open%20access%20policies%20These%20tools%20can%20help%22](https://api.oa.works/report/works?q=title:%22Confused%20by%20open%20access%20policies%20These%20tools%20can%20help%22)
 
-{% endswagger-description %}
+#### Path Parameters
 
-{% swagger-parameter in="query" name="q" type="String" %}
-Allows you to filter results as desired. Your query (q) supports all elastic search terms such as AND, OR, NOT, brackets and wildcards (*).
-{% endswagger-parameter %}
+| Name        | Type   | Description                                                   |
+| ----------- | ------ | ------------------------------------------------------------- |
+| terms/{key} | String | lists number of occurances of each string in the provided key |
+| count       | String | shortcut to provide only the count of a queries response      |
+| sum/{key}   | String | adds all the values in the provided key                       |
+| /keys       | String | lists all available keys                                      |
 
-{% swagger-parameter in="query" name="sort" type="String" %}
-Comma-separated list of keys you want your list sorted by. The list is sorted by the order the keys are provided. Prepending 
+#### Query Parameters
 
-`:desc`
+| Name     | Type   | Description                                                                                                                                                                                                     |
+| -------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| sort     | String | Comma-separated list of keys you want your list sorted by. The list is sorted by the order the keys are provided. Prepending `:desc` to the key to reverse the sort order for that key (`:asc` is the default). |
+| q        | String | Allows you to filter results as desired. Your query (q) supports all elastic search terms such as AND, OR, NOT, brackets and wildcards (\*).                                                                    |
+| size     | String | <p>The number of items to return</p><p></p><p><em>Default</em>: 10</p><p><em>Limit</em>: 10,000</p>                                                                                                             |
+| includes | String | <p>Comma-separated list of keys you want in your response.</p><p></p><p><em>Default</em>: all</p>                                                                                                               |
+| from     | Number | <p>Where to start returning results from.</p><p></p><p><em>Default</em>: 0</p><p><em>Limit</em>: 10,000</p>                                                                                                     |
+| exclude  | String | <p>Comma-separated list of keys you don't want in your response.</p><p></p><p><em>Default</em>: none</p>                                                                                                        |
 
- to the key to reverse the sort order for that key (
-
-`:asc`
-
- is the default).
-{% endswagger-parameter %}
-
-{% swagger-parameter in="path" name="count" type="String" %}
-shortcut to provide only the count of a queries response
-{% endswagger-parameter %}
-
-{% swagger-parameter in="path" name="terms/{key}" type="String" %}
-lists number of occurances of each string in the provided key
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="size" type="String" %}
-The number of items to return
-
-
-
-_Default_: 10
-
-_Limit_: 10,000
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="from" type="Number" %}
-Where to start returning results from.
-
-
-
-_Default_: 0
-
-_Limit_: 10,000
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="includes" type="String" %}
-Comma-separated list of keys you want in your response.
-
-
-
-_Default_: all
-{% endswagger-parameter %}
-
-{% swagger-parameter in="path" name="sum/{key}" type="String" %}
-adds all the values in the provided key
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="exclude" %}
-Comma-separated list of keys you don't want in your response.
-
-
-
-_Default_: none
-{% endswagger-parameter %}
-
-{% swagger-parameter in="path" name="/keys" type="String" %}
-lists all available keys
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 {% code title="Some keys omitted for brevity" %}
 ```json
 {
@@ -244,45 +192,38 @@ lists all available keys
 }
 ```
 {% endcode %}
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="get" path="" baseUrl="https://api.oa.works/report/works.csv" summary="Get a CSV of works" expanded="true" %}
-{% swagger-description %}
-Supports all the parameters provided in 
+## Get a CSV of works
 
-[#get-list-of-works](api.md#get-list-of-works "mention")
+<mark style="color:blue;">`GET`</mark> `https://api.oa.works/report/works.csv`
 
+Supports all the parameters provided in [#get-list-of-works](api.md#get-list-of-works "mention")
 
-{% endswagger-description %}
+#### Query Parameters
 
-{% swagger-parameter in="query" name="email" required="true" type="String" %}
-Comma-separated list of emails you want to send a download link to your CSV
-{% endswagger-parameter %}
+| Name                                    | Type   | Description                                                                                                                    |
+| --------------------------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------ |
+| email<mark style="color:red;">\*</mark> | String | Comma-separated list of emails you want to send a download link to your CSV                                                    |
+| size                                    | String | <p><em>Default</em>: 10</p><p><em>Format</em>: number, or  <code>all</code> to provide all results (up to a max of 30,000)</p> |
 
-{% swagger-parameter in="query" name="size" type="String" %}
-_Default_: 10
-
-_Format_: number, or  `all` to provide all results (up to a max of 30,000)
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="https://static.oa.works/export/report_wroks_e6pdyvsqsseyo38jersne.csv" %}
+{% tabs %}
+{% tab title="200: OK https://static.oa.works/export/report_wroks_e6pdyvsqsseyo38jersne.csv" %}
 ```
 https://static.oa.works/export/report_works_8wl6t8lkjkmji2dltjuvf.csv
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="get" path="" baseUrl="https://api.oa.works/report/orgs" summary="Get a list of organizations" expanded="true" %}
-{% swagger-description %}
-Supports all the parameters provided in 
+## Get a list of organizations
 
-[#get-list-of-works](api.md#get-list-of-works "mention")
+<mark style="color:blue;">`GET`</mark> `https://api.oa.works/report/orgs`
 
+Supports all the parameters provided in [#get-list-of-works](api.md#get-list-of-works "mention")
 
-{% endswagger-description %}
-
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 {% code title="Some keys omitted for brevity" %}
 ```json
 {
@@ -332,5 +273,5 @@ Supports all the parameters provided in
 }
 ```
 {% endcode %}
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
