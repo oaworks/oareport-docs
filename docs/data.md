@@ -64,6 +64,24 @@ _Boolean:_ `true` if the article has a data availability (or, resource availabil
 _Source_: PMC\
 &#xNAN;_&#x55;pdated_: Weekly (premium), occasionally (free)
 
+#### `data_availability_statement`
+
+_String_: The fulltext of the data availability statement\
+&#xNAN;_&#x53;ource_: OA.Works\
+&#xNAN;_&#x55;pdated_: Weekly (premium), occasionally (free)
+
+#### `data_availability_doi`
+
+Arra&#x79;_:_ Any DOIs found in `data_availability_statement`.\
+&#xNAN;_&#x53;ource_: OA.Works\
+&#xNAN;_&#x55;pdated_: Weekly (premium), occasionally (free)
+
+#### `data_availability_url`
+
+Arra&#x79;_:_ Any URLs found in `data_availability_statement`.\
+&#xNAN;_&#x53;ource_: OA.Works\
+&#xNAN;_&#x55;pdated_: Weekly (premium), occasionally (free)
+
 #### `email`
 
 _String:_ The corresponding author's email address
@@ -151,7 +169,7 @@ _String:_ The doi of the article's preprint
 _Source:_ OA.Works\
 &#xNAN;_&#x55;pdated:_ Weekly (premium)
 
-#### `has data availability statement`
+#### `has_data_availability_statement`
 
 _Boolean:_ `true` if the work has a data or resource availability statement
 
