@@ -281,12 +281,19 @@ _String: The invoice number provided on the invoice_
 _Source:_ OA.Works\
 &#xNAN;_&#x55;pdated:_ Weekly (premium)
 
-`is_original_research`
+#### `is_original_research`
 
 _String:_ Scholarly research articles, including only peer-reviewed research that present new findings. This excludes reviews, editorials, methods and conference proceedings.
 
 _Source:_ OA.Works\
 &#xNAN;_&#x55;pdated:_ Weekly (premium)
+
+#### `epmc_licence`
+
+_String:_ The licence applied to the work in Europe PMC
+
+_Source:_ Europe PMC\
+&#xNAN;_&#x55;pdated:_ Daily (premium)
 
 ### Organization specific `supplements`
 
