@@ -295,6 +295,13 @@ _String:_ The licence applied to the work in Europe PMC
 _Source:_ Europe PMC\
 &#xNAN;_&#x55;pdated:_ Daily (premium)
 
+#### `submitted_date`
+
+_String:_ The date an a work was submitted to a journal
+
+_Source:_ OA.Works, PMC\
+&#xNAN;_&#x55;pdated:_ Weekly (premium)
+
 ### Organization specific `supplements`
 
 These keys also start with `supplements.` However, they also end with an organization's name or acronym to provide organization-specific data. For instance: `supplements.grantid__bmgf`.
