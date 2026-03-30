@@ -288,9 +288,16 @@ _String:_ Scholarly research articles, including only peer-reviewed research tha
 _Source:_ OA.Works\
 &#xNAN;_&#x55;pdated:_ Weekly (premium)
 
+#### `has_epmc_fulltext`&#x20;
+
+_Boolean:_ `true` if the article has full text available in Europe PMC
+
+_Source:_ Europe PMC\
+&#xNAN;_&#x55;pdated:_ Daily (premium)
+
 #### `epmc_licence`
 
-_String:_ The licence applied to the work in Europe PMC
+_String:_ The license applied to the full text in Europe PMC
 
 _Source:_ Europe PMC\
 &#xNAN;_&#x55;pdated:_ Daily (premium)
