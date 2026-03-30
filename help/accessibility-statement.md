@@ -8,7 +8,7 @@ This accessibility statement applies to the present [OA.Report](https://oa.repor
 
 This website is run by OA.Works. Our organization is committed to accessibility and inclusivity for all people with disabilities. We want as many people as possible to be able to use this website. For example, that means you should be able to:
 
-* Zoom in up to 200% without the text spilling off the screen.
+* Zoom in up to 400% without the text spilling off the screen.
 * Navigate most of the website using just a keyboard.
 * Navigate most of the website using speech recognition software.
 * Listen to most of the website using a screen reader (including the most recent versions of JAWS, NVDA and VoiceOver).
@@ -33,13 +33,13 @@ OA.Works is committed to making its website accessible in accordance with the re
 
 The Web Content Accessibility Guidelines (WCAG) define requirements for designers and developers to improve accessibility for people with disabilities. It defines three levels of conformance: Level A, Level AA, and Level AAA.
 
-OA.Works’ website is **partially conformant with WCAG 2.1 level AA**. Partially conformant means that some parts of the content do not fully conform to the accessibility standard.
+OA.Works’ website is **partially conformant with WCAG 2.2 level AA**. Partially conformant means that some parts of the content do not fully conform to the accessibility standard.
 
 #### Known accessibility problems
 
-| Accessibility problem                                                            | WCAG Success Criterion                                                                                                                                                                                                                                                                                                                                                                                |
-| -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Users can not skip the header navigation to access the main content on the page. | [**2.4.1**](http://www.w3.org/TR/2008/REC-WCAG20-20081211/#navigation-mechanisms-skip) **Bypass Blocks:** A [mechanism](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html#mechanismdef) is available to bypass blocks of content that are repeated on multiple [Web pages](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html#webpagedef). (Level A) |
+| Accessibility problem                                             | Impact                                                                                          | WCAG Success Criterion                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Horizontally scrollable table is not fully accessible by keyboard | Keyboard users may be unable to access all table content where horizontal scrolling is required | [**2.1.1 Keyboard (Level A)**](https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html)**:** All [functionality](https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html#dfn-functionality) of the content is operable through a [keyboard interface](https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html#dfn-keyboard-interface) without requiring specific timings for individual keystrokes, except where the underlying function requires input that depends on the path of the user's movement and not just the endpoints. |
 
 ### Feedback and contact information
 
@@ -52,9 +52,19 @@ We try to respond to feedback within seven days.
 
 ### Preparation of this accessibility statement
 
-This statement was prepared on June 22, 2023. It was last reviewed on **June 22, 2023**. This website was last tested on June 22, 2023.
+This statement was prepared on 22 June 2023. It was last reviewed on **30 March 2026**. This website was last tested on 13 March 2026.
 
-Our own team at OA.Works carried out testing using:
+[Torchbox](https://torchbox.com/) carried out an accessibility audit on 13 March 2026 using the following methods:
 
-* Automated tools: [Lighthouse](https://developers.google.com/web/tools/lighthouse/) (via [Netlify](https://netlify.com)) and [axe](https://www.deque.com/axe/) (via [Ghost Inspector](https://ghostinspector.com)).
+* Automated tools:&#x20;
+  * Accessibility Insights for Web (Axe, Chrome).
+* Manual testing:&#x20;
+  * Keyboard navigation testing (Chrome)
+  * Screen reader testing (VoiceOver on macOS, Safari)
+  * Full-page zoom testing (Chrome, up to 400%)
+  * General manual accessibility testing (Chrome)
+
+Our own team at OA.Works provided fixes to the issues found in the audit and re-tested them using:
+
+* Automated tools: [Lighthouse](https://developers.google.com/web/tools/lighthouse/) and [axe](https://www.deque.com/axe/) (via [Ghost Inspector](https://ghostinspector.com)).
 * Manual testing: MacOs’ VoiceOver and navigating using just the keyboard.
