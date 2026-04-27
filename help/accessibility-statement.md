@@ -6,7 +6,9 @@ description: For the OA.Report website
 
 This accessibility statement applies to the present [OA.Report](https://oa.report) website and excludes other product websites ([OAbutton.org](https://oabutton.org/), [InstantILL.org](https://instantill.org/), [ShareYourPaper.org](https://shareyourpaper.org/)), our [main website](https://oa.works), and our [blog](https://blog.oa.works/).
 
-This website is run by OA.Works. Our organization is committed to accessibility and inclusivity for all people with disabilities. We want as many people as possible to be able to use this website. For example, that means you should be able to:
+This website is run by OA.Works. Our organization is committed to accessibility and inclusivity for all people with disabilities, in accordance with the [Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018](http://legislation.gov.uk/uksi/2018/952/contents) (in the United Kingdom) and the requirements of [Section 508 of the Rehabilitation Act of 1973, as amended (29 U.S.C. 794d)](https://www.section508.gov/manage/laws-and-policies/section-508-law/) (in the United States).
+
+We want as many people as possible to be able to use this website. For example, that means you should be able to:
 
 * Zoom in up to 400% without the text spilling off the screen.
 * Navigate most of the website using just a keyboard.
@@ -29,17 +31,13 @@ OA.Works takes the following measures to ensure accessibility of the OA.Report w
 
 ### Conformance status
 
-OA.Works is committed to making its website accessible in accordance with the requirements of Section 508 of the Rehabilitation Act of 1973, as amended (29 U.S.C. 794d).
-
 The Web Content Accessibility Guidelines (WCAG) define requirements for designers and developers to improve accessibility for people with disabilities. It defines three levels of conformance: Level A, Level AA, and Level AAA.
 
-OA.Works’ website is **partially conformant with WCAG 2.2 level AA**. Partially conformant means that some parts of the content do not fully conform to the accessibility standard.
+OA.Works’ website is fully compliant with the **Web Content Accessibility Guidelines (WCAG) version 2.2 AA** standard.
 
 #### Known accessibility problems
 
-| Accessibility problem                                             | Impact                                                                                          | WCAG Success Criterion                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Horizontally scrollable table is not fully accessible by keyboard | Keyboard users may be unable to access all table content where horizontal scrolling is required | [**2.1.1 Keyboard (Level A)**](https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html)**:** All [functionality](https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html#dfn-functionality) of the content is operable through a [keyboard interface](https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html#dfn-keyboard-interface) without requiring specific timings for individual keystrokes, except where the underlying function requires input that depends on the path of the user's movement and not just the endpoints. |
+None found following an accessibility audit conducted on 13 March 2026.&#x20;
 
 ### Feedback and contact information
 
@@ -52,7 +50,7 @@ We try to respond to feedback within seven days.
 
 ### Preparation of this accessibility statement
 
-This statement was prepared on 22 June 2023. It was last reviewed on **30 March 2026**. This website was last tested on 13 March 2026.
+This statement was prepared on 22 June 2023. It was last reviewed on **27 April 2026**. This website was last tested on 13 March 2026.
 
 [Torchbox](https://torchbox.com/) carried out an accessibility audit on 13 March 2026 using the following methods:
 
