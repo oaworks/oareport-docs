@@ -5,9 +5,17 @@ noIndex: true
 
 # OA.Report 2026-04-29 incident status updates
 
+**2026-04-29 \~14:57:00 GMT+1**
+
+We have released a fix to resolve the minor accuracy issues.
+
+**2026-04-29 \~12:15:00 GMT+1**
+
+We are aware of minor issues affecting accuracy, we are investigating a fix.
+
 **2026-04-29 10:33:00 GMT+1**
 
-We have released a fix to restore normal service. We are continuing to investigate the root cause and any further mitigations. Report figures should now be accurate, but please [alert us](mailto:help@oa.report) if you notice any issues.
+We have released a fix to restore normal service. We are continuing to investigate the root cause and any further mitigations required. Report figures should now be accurate, but please [alert us](mailto:help@oa.report) if you notice any issues.
 
 **2026-04-29 10:10:00 GMT+1**
 
