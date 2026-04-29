@@ -5,6 +5,12 @@ noIndex: true
 
 # OA.Report 2026-04-29 incident status updates
 
+## Summary
+
+We’ve recently experienced a data quality issue affecting OA.Report data. We expect normal service to be restored and are continuing to monitor data quality and investigate the root cause.
+
+## Status updates
+
 **2026-04-29 \~14:57:00 GMT+1**
 
 We have released a fix to resolve the minor accuracy issues.
