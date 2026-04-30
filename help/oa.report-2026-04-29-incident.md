@@ -56,6 +56,10 @@ We have deployed a website alert to notify users.
 
 We are investigating an issue with potential loss of OA.Report data. Report figures are likely to be have major inaccuracies.
 
+**2026-04-29 \~03:00:00 GMT+1**
+
+Additional automated alerts fire suggesting increased data quality issues.
+
 **2026-04-29 \~01:00:00 GMT+1**
 
 Automated alerts fire suggesting the start of data quality issues.
