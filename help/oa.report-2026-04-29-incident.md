@@ -3,13 +3,26 @@ hidden: true
 noIndex: true
 ---
 
-# OA.Report 2026-04-29 incident status updates
+# OA.Report 2026-04-29 incident
 
 ## Summary
 
-We’ve recently experienced a data quality issue affecting OA.Report data. We expect normal service to be restored and are continuing to monitor data quality and investigate the root cause.
+On April 29, 2026, we experienced a loss of OA.Report data. Report figures are now accurate, with only a minor impact on normal service. We are continuing to review data quality and investigate the root cause.
+
+## Known issues
+
+* Opening emails and downloading CSVs may not work for all users. If you need this functionality, please [contact us](mailto:help@oa.report), and we can restore it immediately. Otherwise, we expect to restore it next week.
+* Data is currently frozen as of April 29, 2026, while we investigate the root cause. This may cause minor inaccuracies as new publications are released and metadata is updated. We expect syncing to resume next week.
 
 ## Status updates
+
+**2026-04-30 \~09:00:00 GMT+1**
+
+We are continuing to review, and resolve minor issues as we find them.
+
+**2026-04-30 \~20:40:00 GMT+1**
+
+We are continuing to review, and resolve minor issues as we find them.
 
 **2026-04-29 \~14:57:00 GMT+1**
 
