@@ -18,7 +18,7 @@ On April 29, 2026, we experienced a loss of OA.Report data. Report figures are n
 
 **2026-04-30 \~10:49:00 GMT+1**
 
-We have reproduced the issue that caused the data loss, a key step in the investigation of the root cause.
+We have reproduced the issue that caused the data loss, a key step in the investigation of the root cause. While the exact issue is not clear, the reproduction supports our primary hypothesis.
 
 **2026-04-30 \~09:00:00 GMT+1**
 
