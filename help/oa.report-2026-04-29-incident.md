@@ -30,11 +30,11 @@ We are continuing to review, and resolve minor issues as we find them.
 
 **2026-04-29 \~14:57:00 GMT+1**
 
-We have released a fix to resolve the minor accuracy issues.
+We have released a fix to resolve the minor data accuracy issues.
 
 **2026-04-29 \~12:15:00 GMT+1**
 
-We are aware of minor issues affecting accuracy, we are investigating a fix.
+We are aware of minor issues affecting data accuracy, we are investigating a fix.
 
 **2026-04-29 10:33:00 GMT+1**
 
@@ -51,6 +51,10 @@ We are continuing to investigate and are reviewing options for immediate mitigat
 **2026-04-29 09:40:00 GMT+1**
 
 We are continuing to investigate and are deploying changes to avoid further data loss.
+
+**2026-04-29 09:33:00 GMT+1**
+
+We have confirmed a loss of OA.Report data on our production systems. Report figures have major inaccuracies.
 
 **2026-04-29 08:55:00 GMT+1**
 
