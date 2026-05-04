@@ -11,10 +11,21 @@ On April 29, 2026, we experienced a loss of OA.Report data. Report figures are n
 
 ## Known issues
 
-* Opening emails and downloading CSVs may not work for all users. If you need this functionality, please [contact us](mailto:help@oa.report), and we can restore it immediately. Otherwise, we expect to restore it next week.
 * Data is currently frozen as of April 29, 2026, while we investigate the root cause. This may cause minor inaccuracies as new publications are released and metadata is updated. We expect syncing to resume next week.
 
 ## Status updates
+
+**2026-05-04 \~11:47:00 GMT+1**
+
+We have resolved the issue with opening emails and downloading CSVs from actions.
+
+**2026-05-03 \~12:00:00 GMT+1**
+
+We are continuing to investigate the root cause, and monitor for data quality issues.
+
+**2026-05-02 \~12:00:00 GMT+1**
+
+We are continuing to investigate the root cause, and monitor for data quality issues.
 
 **2026-05-01 \~08:47:00 GMT+1**
 
