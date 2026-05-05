@@ -15,6 +15,10 @@ On April 29, 2026, we experienced a loss of OA.Report data. Report figures are n
 
 ## Status updates
 
+**2026-05-05 \~18:00:00 GMT+1**
+
+We believe we have a fixed the issue that caused the data loss.
+
 **2026-05-04 \~11:47:00 GMT+1**
 
 We have resolved the issue with opening emails and downloading CSVs from actions.
