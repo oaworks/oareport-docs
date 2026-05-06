@@ -13,7 +13,7 @@ On April 29, 2026, we experienced a loss of OA.Report data. Report figures are n
 
 **2026-05-06 \~10:00:00 GMT+1**
 
-We have released our fix. Reports are now up to date, and will continue to update as normal. We are continuing to monitor data quality closely and investigate the root cause.
+We have released our fix. Reports are now up to date, and will continue to update. We are continuing to monitor data quality closely and investigate the root cause.
 
 **2026-05-05 \~18:00:00 GMT+1**
 
