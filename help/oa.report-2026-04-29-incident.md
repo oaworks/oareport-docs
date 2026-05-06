@@ -7,13 +7,13 @@ noIndex: true
 
 ## Summary
 
-On April 29, 2026, we experienced a loss of OA.Report data. Report figures are now accurate, with only a minor impact on normal service. We are continuing to review data quality and investigate the root cause.
-
-## Known issues
-
-* Data is currently frozen as of April 29, 2026, while we investigate the root cause. This may cause minor inaccuracies as new publications are released and metadata is updated. We expect syncing to resume next week.
+On April 29, 2026, we experienced a loss of OA.Report data. Report figures are now accurate, and normal service has resumed. We are continuing to review data quality and investigate the root cause.
 
 ## Status updates
+
+**2026-05-06 \~10:00:00 GMT+1**
+
+We have released our fix. Reports are now up to date, and will continue to update as normal. We are continuing to monitor data quality closely and investigate the root cause.
 
 **2026-05-05 \~18:00:00 GMT+1**
 
