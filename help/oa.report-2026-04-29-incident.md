@@ -7,7 +7,7 @@ noIndex: true
 
 ## Summary
 
-On April 29, 2026, we experienced a loss of OA.Report data. Report figures are now accurate, and normal service has resumed. We are continuing to review data quality and investigate the root cause.
+On April 29, 2026, we experienced a loss of OA.Report data. Report figures are now accurate, and normal service has resumed.
 
 ## Status updates
 
