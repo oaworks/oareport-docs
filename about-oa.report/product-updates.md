@@ -2,6 +2,7 @@
 description: >-
   This page lists notable changes to OA.Report as they’re released, newest
   first, including any change that affects your figures.
+hidden: true
 ---
 
 # Product updates
