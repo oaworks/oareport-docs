@@ -2,7 +2,6 @@
 description: >-
   This page lists notable changes to OA.Report as they’re released, newest
   first, including any change that affects your figures.
-hidden: true
 ---
 
 # Product updates
@@ -11,10 +10,12 @@ hidden: true
 
 {% endif %}
 
-{% if  %}
+{% if visitor.claims.unsigned.org === "mjff" || visitor.claims.unsigned.org === "michael-j-fox-foundation" %}
 {% updates format="full" %}
 {% update date="2026-10-28" tags="changed" %}
-## Grant ID update \[MJFF ONLY]
+##
+
+Grant ID update \[MJFF ONLY]
 
 Grant ID information has been improved across all exported data: 233 new grant IDs were added, and 666 records now have a recognised grant ID, more than double the total. This increases policy coverage by approximately 50%.
 {% endupdate %}
