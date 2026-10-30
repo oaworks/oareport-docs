@@ -13,11 +13,9 @@ description: >-
 {% if visitor.claims.unsigned.org === "mjff" || visitor.claims.unsigned.org === "michael-j-fox-foundation" %}
 {% updates format="full" %}
 {% update date="2026-10-28" tags="changed" %}
-##
+## Grant ID update
 
-Grant ID update \[MJFF ONLY]
-
-Grant ID information has been improved across all exported data: 233 new grant IDs were added, and 666 records now have a recognised grant ID, more than double the total. This increases policy coverage by approximately 50%.
+**Michael J. Fox Foundation only:** Grant ID information has been improved across all exported data: 233 new grant IDs were added, and 666 records now have a recognised grant ID, more than double the total. This increases policy coverage by approximately 50%.
 {% endupdate %}
 {% endupdates %}
 {% endif %}
