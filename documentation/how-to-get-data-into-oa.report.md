@@ -1,4 +1,4 @@
-# How to get data into OA.Report
+# How to get your data into OA.Report
 
 OA.Report [uses data from many sources](sources.md) to help create comprehensive and useful information on your works. One of those routes involves [ingesting your institution's data](sources.md#institutions-data).
 
@@ -17,7 +17,7 @@ See [#institutions-data](sources.md#institutions-data "mention")
 
 ## How will you share our data?
 
-All [OA.Report's data is public and licensed CC0](../about/licenses.md), and by default, that includes the data you send us. However, if your data is sensitive and can't be shared, let us know, and we'll talk you through the options available.
+All [OA.Report's data is public and licensed CC0](../about-oa.report/licenses.md), and by default, that includes the data you send us. However, if your data is sensitive and can't be shared, let us know, and we'll talk you through the options available.
 
 ## How frequently should we update our data?
 

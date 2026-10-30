@@ -1,0 +1,13 @@
+- tag: removed
+  label: Removed
+  icon: trash-can-xmark
+- tag: changed
+  label: Changed
+  icon: wand-sparkles
+- tag: added
+  label: Added
+  icon: rocket-launch
+  color: $primary
+- tag: fixed
+  label: Fixed
+  icon: screwdriver-wrench

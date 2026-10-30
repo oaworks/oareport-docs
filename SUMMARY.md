@@ -1,11 +1,13 @@
 # Table of contents
 
-## about
+## About OA.Report
 
-* [About](README.md)
-* [Pricing](about/pricing.md)
-* [Licensing](about/licenses.md)
-* [Our users](about/users.md)
+* [Overview](README.md)
+* [Product updates](about-oa.report/product-updates.md)
+* [Monthly update](about-oa.report/monthly-update.md)
+* [Our users](about-oa.report/users.md)
+* [Pricing](about-oa.report/pricing.md)
+* [Licensing](about-oa.report/licenses.md)
 * [News](https://blog.oa.works/oa-report/)
 
 ## How it works (coming soon)
@@ -14,13 +16,13 @@
 * [Insights](how-it-works-coming-soon/insights.md)
 * [Strategies](how-it-works-coming-soon/strategies.md)
 
-## docs
+## Documentation
 
-* [Data format](docs/data.md)
-* [Data sources](docs/sources.md)
-* [API](docs/api.md)
-* [User accounts](docs/user-accounts.md)
-* [How to get your data into OA.Report](docs/how-to-get-data-into-oa.report.md)
+* [Data format](documentation/data.md)
+* [Data sources](documentation/sources.md)
+* [API](documentation/api.md)
+* [User accounts](documentation/user-accounts.md)
+* [How to get your data into OA.Report](documentation/how-to-get-data-into-oa.report.md)
 
 ## Help
 

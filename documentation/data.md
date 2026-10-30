@@ -15,7 +15,7 @@ For an example of a record with most of the possible fields, go to [https://api.
 _Boolean:_ `True` if the work can be self-archived in a repository.
 
 _Source_: [ShareYourPaper Permissions](https://shareyourpaper.org/permissions)\
-&#xNAN;_&#x55;pdated_: Daily (premium), occasionally (free)
+_&#x55;pdated_: Daily (premium), occasionally (free)
 
 #### `version`
 
@@ -26,7 +26,7 @@ _String:_ What version of the work can be self-archived in a repository?
 Values are based on the [DRIVER Guidelines versioning scheme.](https://wiki.surfnet.nl/display/DRIVERguidelines/DRIVER-VERSION+Mappings)
 
 _Source_: [ShareYourPaper Permissions](https://shareyourpaper.org/permissions)\
-&#xNAN;_&#x55;pdated_: Daily (premium), occasionally (free)
+_&#x55;pdated_: Daily (premium), occasionally (free)
 
 #### `journal_oa_type`
 
@@ -48,39 +48,39 @@ Values include:
 `journal_oa_type: "diamond"`
 
 _Source_: OA.Works\
-&#xNAN;_&#x55;pdated_: Daily (premium), occasionally (free)
+_&#x55;pdated_: Daily (premium), occasionally (free)
 
 #### `pmc_has_data_availability_statement`
 
 _Boolean:_ `true` if PMC reports the article as having a data availability statement.
 
 _Source_: PMC\
-&#xNAN;_&#x55;pdated_: Weekly (premium), occasionally (free)
+_&#x55;pdated_: Weekly (premium), occasionally (free)
 
 #### `has_data_availability_statement`
 
 _Boolean:_ `true` if the article has a data availability (or, resource availability) statement.
 
 _Source_: PMC\
-&#xNAN;_&#x55;pdated_: Weekly (premium), occasionally (free)
+_&#x55;pdated_: Weekly (premium), occasionally (free)
 
 #### `data_availability_statement`
 
 _String_: The fulltext of the data availability statement\
-&#xNAN;_&#x53;ource_: OA.Works\
-&#xNAN;_&#x55;pdated_: Weekly (premium), occasionally (free)
+_&#x53;ource_: OA.Works\
+_&#x55;pdated_: Weekly (premium), occasionally (free)
 
 #### `data_availability_doi`
 
 Arra&#x79;_:_ Any DOIs found in `data_availability_statement`.\
-&#xNAN;_&#x53;ource_: OA.Works\
-&#xNAN;_&#x55;pdated_: Weekly (premium), occasionally (free)
+_&#x53;ource_: OA.Works\
+_&#x55;pdated_: Weekly (premium), occasionally (free)
 
 #### `data_availability_url`
 
 Arra&#x79;_:_ Any URLs found in `data_availability_statement`.\
-&#xNAN;_&#x53;ource_: OA.Works\
-&#xNAN;_&#x55;pdated_: Weekly (premium), occasionally (free)
+_&#x53;ource_: OA.Works\
+_&#x55;pdated_: Weekly (premium), occasionally (free)
 
 #### `email`
 
@@ -93,7 +93,7 @@ Most emails are encrypted if you're not logged in and viewing emails associated 
 {% endhint %}
 
 _Source:_ OA.Works\
-&#xNAN;_&#x55;pdated:_ Weekly (premium)
+_&#x55;pdated:_ Weekly (premium)
 
 #### `author_email_name`
 
@@ -102,14 +102,14 @@ _String:_ The corresponding author's name for use in emails
 `email: "Dr.Who"`
 
 _Source:_ OA.Works\
-&#xNAN;_&#x55;pdated:_ Weekly (premium)
+_&#x55;pdated:_ Weekly (premium)
 
 #### `crossref_is_oa`
 
 _Boolean:_ `true` if crossref data suggests the article is free to read
 
 _Source:_ Crossref\
-&#xNAN;_&#x55;pdated:_ Weekly (premium), occasionally (free)
+_&#x55;pdated:_ Weekly (premium), occasionally (free)
 
 #### `updated`
 
@@ -118,7 +118,7 @@ _String: timestamp of when the record was last updated_
 `updated: "1675693406601"`
 
 _Source:_ OA.Works\
-&#xNAN;_&#x55;pdated:_ Weekly (premium), occasionally (free)
+_&#x55;pdated:_ Weekly (premium), occasionally (free)
 
 ### `Supplements`
 
@@ -135,7 +135,7 @@ _String:_ The license applied to this work by the publisher as best we can deter
 `publisher_license_best: "cc-by"`
 
 _Source_: Unpaywall, CrossRef, and manual collection can be used to support this designation.\
-&#xNAN;_&#x55;pdated_: Weekly (premium), occasionally (free)
+_&#x55;pdated_: Weekly (premium), occasionally (free)
 
 #### `repository_license_best`
 
@@ -144,21 +144,21 @@ _String:_ The license applied to this work by the repository as best we can dete
 `publisher_license_best: "cc-by"`
 
 _Source_: Data from Unpaywall and Europe PMC can be used to support this designation.\
-&#xNAN;_&#x55;pdated_: Weekly (premium), occasionally (free)
+_&#x55;pdated_: Weekly (premium), occasionally (free)
 
 #### `is_preprint`
 
 _Boolean:_ `true` if the article is on a preprint server
 
 _Source:_ OA.Works\
-&#xNAN;_&#x55;pdated:_ Weekly (premium)
+_&#x55;pdated:_ Weekly (premium)
 
 #### `has_preprint_copy`
 
 _Boolean:_ `true` if the article has a version on a preprint server
 
 _Source:_ OA.Works\
-&#xNAN;_&#x55;pdated:_ Weekly (premium)
+_&#x55;pdated:_ Weekly (premium)
 
 #### `preprint_doi`
 
@@ -167,14 +167,14 @@ _String:_ The doi of the article's preprint
 `preprint_doi: "10.21203/rs.3.rs-805463/v1"`
 
 _Source:_ OA.Works\
-&#xNAN;_&#x55;pdated:_ Weekly (premium)
+_&#x55;pdated:_ Weekly (premium)
 
 #### `has_data_availability_statement`
 
 _Boolean:_ `true` if the work has a data or resource availability statement
 
 _Source:_ OA.Works\
-&#xNAN;_&#x55;pdated:_ Weekly (premium)
+_&#x55;pdated:_ Weekly (premium)
 
 #### `has_made_data`
 
@@ -258,56 +258,56 @@ Updated: As requested (premium)
 _String:_ the APC cost in USD
 
 _Source:_ OA.Works\
-&#xNAN;_&#x55;pdated:_ Weekly (premium)
+_&#x55;pdated:_ Weekly (premium)
 
 #### `invoice_date`
 
 _String: Date an APC invoice was issued_
 
 _Source:_ OA.Works\
-&#xNAN;_&#x55;pdated:_ Weekly (premium)
+_&#x55;pdated:_ Weekly (premium)
 
 #### `invoice_year`
 
 _String: Year an APC invoice was issued_
 
 _Source:_ OA.Works\
-&#xNAN;_&#x55;pdated:_ Weekly (premium)
+_&#x55;pdated:_ Weekly (premium)
 
 #### `invoice_number`
 
 _String: The invoice number provided on the invoice_
 
 _Source:_ OA.Works\
-&#xNAN;_&#x55;pdated:_ Weekly (premium)
+_&#x55;pdated:_ Weekly (premium)
 
 #### `is_original_research`
 
 _String:_ Scholarly research articles, including only peer-reviewed research that present new findings. This excludes reviews, editorials, methods and conference proceedings.
 
 _Source:_ OA.Works\
-&#xNAN;_&#x55;pdated:_ Weekly (premium)
+_&#x55;pdated:_ Weekly (premium)
 
 #### `has_epmc_fulltext`&#x20;
 
 _Boolean:_ `true` if the article has full text available in Europe PMC
 
 _Source:_ Europe PMC\
-&#xNAN;_&#x55;pdated:_ Daily (premium)
+_&#x55;pdated:_ Daily (premium)
 
 #### `epmc_licence`
 
 _String:_ The license applied to the full text in Europe PMC
 
 _Source:_ Europe PMC\
-&#xNAN;_&#x55;pdated:_ Daily (premium)
+_&#x55;pdated:_ Daily (premium)
 
 #### `submitted_date`
 
 _String:_ The date an a work was submitted to a journal
 
 _Source:_ OA.Works, PMC\
-&#xNAN;_&#x55;pdated:_ Weekly (premium)
+_&#x55;pdated:_ Weekly (premium)
 
 ### Organization specific `supplements`
 
@@ -318,63 +318,63 @@ These keys also start with `supplements.` However, they also end with an organiz
 _String:_ The grant ID(s) associated with the work
 
 _Source:_ OA.Works, Crossref\
-&#xNAN;_&#x55;pdated:_ Weekly (premium)
+_&#x55;pdated:_ Weekly (premium)
 
 #### `is_compliant*`
 
 _Boolean:_ `true` if the work is compliant with the organization's Open Access policy
 
 _Source:_ OA.Works\
-&#xNAN;_&#x55;pdated:_ Weekly (premium)
+_&#x55;pdated:_ Weekly (premium)
 
 #### `is_covered_by_policy`
 
 _Boolean:_ `true` if the work is covered under the organization's Open Access policy
 
 _Source:_ OA.Works\
-&#xNAN;_&#x55;pdated:_ Weekly (premium)
+_&#x55;pdated:_ Weekly (premium)
 
 #### `is_new*`
 
 _Boolean:_ `true` if the work has been added since the last time we sent the user a report
 
 _Source:_ OA.Works\
-&#xNAN;_&#x55;pdated:_ Weekly (premium)
+_&#x55;pdated:_ Weekly (premium)
 
 #### `program*`
 
 _String:_ the grant program the work was supported by
 
 _Source:_ OA.Works\
-&#xNAN;_&#x55;pdated:_ Weekly (premium)
+_&#x55;pdated:_ Weekly (premium)
 
 #### `is_approved_repository*`
 
 _Boolean:_ `true` if this work is deposited in an approved repository under the Open Access policy
 
 _Source:_ OA.Works\
-&#xNAN;_&#x55;pdated:_ Weekly (premium)
+_&#x55;pdated:_ Weekly (premium)
 
 #### `financial_disclosures*`
 
 _Boolean:_ `true` if this work's funding statement is actually a financial disclosure
 
 _Source:_ OA.Works\
-&#xNAN;_&#x55;pdated:_ Weekly (premium)
+_&#x55;pdated:_ Weekly (premium)
 
 #### `remove*`
 
 _Boolean:_ `true` if this work should be removed from an organization's results for any reason
 
 _Source:_ OA.Works\
-&#xNAN;_&#x55;pdated:_ Weekly (premium)
+_&#x55;pdated:_ Weekly (premium)
 
 #### `fundingstatement*`
 
 _String:_ full-text of funding statement
 
 _Source:_ OA.Works\
-&#xNAN;_&#x55;pdated:_ Weekly (premium)
+_&#x55;pdated:_ Weekly (premium)
 
 ## Reused data
 
