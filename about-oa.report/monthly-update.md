@@ -8,7 +8,7 @@ hidden: true
 # Monthly update
 
 {% hint style="info" %}
-For notable changes as they’re released, see the [Changelog](product-updates.md).
+For notable changes as they’re released, see the [Changelog](product-updates/).
 {% endhint %}
 
 ### September & October 2026

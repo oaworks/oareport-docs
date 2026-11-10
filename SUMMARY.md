@@ -3,7 +3,8 @@
 ## About OA.Report
 
 * [Overview](README.md)
-* [Product updates](about-oa.report/product-updates.md)
+* [Product updates](about-oa.report/product-updates/README.md)
+  * [Templates](about-oa.report/product-updates/templates.md)
 * [Monthly update](about-oa.report/monthly-update.md)
 * [Our users](about-oa.report/users.md)
 * [Pricing](about-oa.report/pricing.md)
