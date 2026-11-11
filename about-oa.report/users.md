@@ -4,11 +4,11 @@ description: How OA.Report is getting used.
 
 # Our users
 
-## Bill & Melinda Gates Foundation
+## Gates Foundation
 
 {% embed url="https://twitter.com/OA_Works/status/1585644869678419979" %}
 
-## Wellcome
+## Wellcome Trust
 
 {% embed url="https://twitter.com/OA_Works/status/1675892137227874306?s=20" %}
 
@@ -16,7 +16,7 @@ description: How OA.Report is getting used.
 
 {% embed url="https://twitter.com/OA_Works/status/1673322772175503364" %}
 
-## Aligning Science Across Parkinsons
+## Aligning Science Across Parkinson’s
 
 {% embed url="https://twitter.com/OA_Works/status/1584593162995372032" %}
 
