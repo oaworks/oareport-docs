@@ -15,6 +15,16 @@ description: >-
 {% endupdate %}
 {% endif %}
 
+{% update date="2026-11-04" tags="changed" %}
+## Data availability statement figures account for review time
+
+<figure><img src="../../.gitbook/assets/CleanShot 2026-10-28 at 19.53.43.gif" alt=""><figcaption></figcaption></figure>
+
+Data availability statement (DAS) Insight card percentages now account for the roughly six months it takes to review DAS. For date ranges that include the last six months, figures are projected from earlier publications that have had time to be reviewed.
+
+For example, in late October 2026, viewing 2026 gives a projection based on publications from January to April 2026.
+{% endupdate %}
+
 {% if visitor.claims.unsigned.org === "gates-foundation" %}
 {% update date="2026-11-03" tags="fixed,gates-foundation" %}
 ## VeriXiv preprints deduplicated
@@ -30,29 +40,9 @@ description: >-
 Grant ID information has been improved across all exported data: 233 new grant IDs were added, and 666 records now have a recognized grant ID, more than double the total. This increases policy coverage by approximately 50%.
 {% endupdate %}
 {% endif %}
-
-{% update date="2026-10-27" tags="changed" %}
-## Data availability statement figures account for review time
-
-<figure><img src="../../.gitbook/assets/CleanShot 2026-10-28 at 19.53.43.gif" alt=""><figcaption></figcaption></figure>
-
-Data availability statement (DAS) Insight card percentages now account for the roughly six months it takes to review DAS. For date ranges that include the last six months, figures are projected from earlier publications that have had time to be reviewed.
-
-For example, in late October 2026, viewing 2026 gives a projection based on publications from January to April 2026.
-{% endupdate %}
 {% endupdates %}
 
 {% updates format="full" %}
-{% update date="2026-10-27" tags="changed" %}
-## Data availability statement figures account for review time
-
-<figure><img src="../../.gitbook/assets/CleanShot 2026-10-28 at 19.53.43.gif" alt=""><figcaption></figcaption></figure>
-
-Data availability statement (DAS) Insight card percentages now account for the roughly six months it takes to review DAS. For date ranges that include the last six months, figures are projected from earlier publications that have had time to be reviewed.
-
-For example, in late October 2026, viewing 2026 gives a projection based on publications from January to April 2026.
-{% endupdate %}
-
 {% update date="2026-10-06" tags="added,removed" %}
 ## Explore breakdown tables can be sorted by any column
 
