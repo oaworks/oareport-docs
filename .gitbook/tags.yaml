@@ -15,7 +15,8 @@
   label: Michael J. Fox Foundation
   icon: building-columns
 - tag: gates-foundation
-  label: Gates-Foundation
+  label: Gates Foundation
+  icon: building-columns
   color: $info
 - tag: wellcome-trust
   label: Wellcome Trust

@@ -15,8 +15,8 @@ Before merging, check the update with the organization’s link, e.g. `https://a
 
 {% if visitor.claims.unsigned.org === "gates-foundation" %}
 {% updates format="full" %}
-{% update date="2026-11-10" tags="changed" %}
-## _For your organization:_ Update title
+{% update date="2026-11-10" tags="changed,gates-foundation" %}
+## Update title
 
 Update text.
 {% endupdate %}
@@ -27,8 +27,8 @@ Update text.
 
 {% if visitor.claims.unsigned.org === "michael-j-fox-foundation" %}
 {% updates format="full" %}
-{% update date="2026-11-10" tags="changed" %}
-## _For your organization:_ Update title
+{% update date="2026-11-10" tags="changed,michael-j.-fox-foundation" %}
+## Update title
 
 Update text.
 {% endupdate %}
@@ -39,8 +39,8 @@ Update text.
 
 {% if visitor.claims.unsigned.org === "rwjf" %}
 {% updates format="full" %}
-{% update date="2026-11-10" tags="changed" %}
-## _For your organization:_ Update title
+{% update date="2026-11-10" tags="changed,robert-wood-johnson-foundation" %}
+## Update title
 
 Update text.
 {% endupdate %}
@@ -51,8 +51,8 @@ Update text.
 
 {% if visitor.claims.unsigned.org === "templeton-world-charity-foundation" %}
 {% updates format="full" %}
-{% update date="2026-11-10" tags="changed" %}
-## _For your organization:_ Update title
+{% update date="2026-11-10" tags="changed,templeton-world-charity-foundation" %}
+## Update title
 
 Update text.
 {% endupdate %}
@@ -63,8 +63,8 @@ Update text.
 
 {% if visitor.claims.unsigned.org === "wellcome" %}
 {% updates format="full" %}
-{% update date="2026-11-10" tags="changed" %}
-## _For your organization:_ Update title
+{% update date="2026-11-10" tags="changed,wellcome-trust" %}
+## Update title
 
 Update text.
 {% endupdate %}
@@ -78,7 +78,7 @@ Edit the list to the organizations you need.
 {% if ["gates-foundation", "wellcome"].includes(visitor.claims.unsigned.org) %}
 {% updates format="full" %}
 {% update date="2026-11-10" tags="changed" %}
-## _For your organization:_ Update title
+## Update title
 
 Update text.
 {% endupdate %}
@@ -92,7 +92,7 @@ Shown to anyone arriving from their OA.Report, hidden from the public.
 {% if !!visitor.claims.unsigned.org %}
 {% updates format="full" %}
 {% update date="2026-11-10" tags="changed" %}
-## _For your organization:_ Update title
+## Update title
 
 Update text.
 {% endupdate %}

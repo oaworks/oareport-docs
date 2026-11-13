@@ -12,7 +12,7 @@ description: >-
 
 {% updates format="full" %}
 {% if visitor.claims.unsigned.org === "gates-foundation" %}
-{% update date="2026-11-03" tags="fixed,gates-foundation" %}
+{% update date="2026-11-03" tags="fixed" %}
 ## VeriXiv preprints deduplicated
 
 150 VeriXiv preprints have been removed where a more recent version of the same preprint existed. Each VeriXiv preprint is now counted once.
