@@ -1,3 +1,6 @@
+- tag: gates-foundation
+  label: Gates-Foundation
+  color: $info
 - tag: removed
   label: Removed
   icon: trash-can-xmark
