@@ -11,12 +11,6 @@
 * [Licensing](about-oa.report/licenses.md)
 * [News](https://blog.oa.works/oa-report/)
 
-## How it works (coming soon)
-
-* [Tracking outputs](how-it-works-coming-soon/tracking-outputs.md)
-* [Insights](how-it-works-coming-soon/insights.md)
-* [Strategies](how-it-works-coming-soon/strategies.md)
-
 ## Documentation
 
 * [Data format](documentation/data.md)

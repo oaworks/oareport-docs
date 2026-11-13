@@ -6,9 +6,13 @@ description: >-
 
 # Product updates
 
+{% if visitor.claims.unsigned.org === "michael-j-fox-foundation" %}
+
+{% endif %}
+
 {% updates format="full" %}
 {% if visitor.claims.unsigned.org === "gates-foundation" %}
-{% update date="2026-11-03" tags="fixed" %}
+{% update date="2026-11-03" tags="fixed,gates-foundation" %}
 ## VeriXiv preprints deduplicated
 
 150 VeriXiv preprints have been removed where a more recent version of the same preprint existed. Each VeriXiv preprint is now counted once.
@@ -16,8 +20,8 @@ description: >-
 {% endif %}
 
 {% if visitor.claims.unsigned.org === "michael-j-fox-foundation" %}
-{% update date="2026-10-28" tags="changed" %}
-## _For your organization:_ Grant ID update
+{% update date="2026-10-28" tags="changed,michael-j.-fox-foundation" %}
+## Grant ID update
 
 Grant ID information has been improved across all exported data: 233 new grant IDs were added, and 666 records now have a recognized grant ID, more than double the total. This increases policy coverage by approximately 50%.
 {% endupdate %}

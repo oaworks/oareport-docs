@@ -1,6 +1,3 @@
-- tag: gates-foundation
-  label: Gates-Foundation
-  color: $info
 - tag: removed
   label: Removed
   icon: trash-can-xmark
@@ -14,3 +11,18 @@
 - tag: fixed
   label: Fixed
   icon: screwdriver-wrench
+- tag: michael-j.-fox-foundation
+  label: Michael J. Fox Foundation
+  icon: building-columns
+- tag: gates-foundation
+  label: Gates-Foundation
+  color: $info
+- tag: wellcome-trust
+  label: Wellcome Trust
+  icon: building-columns
+- tag: robert-wood-johnson-foundation
+  label: Robert Wood Johnson Foundation
+  icon: building-columns
+- tag: templeton-world-charity-foundation
+  label: Templeton World Charity Foundation
+  icon: building-columns
