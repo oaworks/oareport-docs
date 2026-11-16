@@ -7,11 +7,21 @@ description: >-
 # Product updates
 
 {% updates format="full" %}
+{% update date="2026-11-15" tags="changed" %}
+## Explore breakdown tables can be sorted at larger sizes
+
+<figure><img src="../../.gitbook/assets/CleanShot 2026-11-15 at 21.45.57.gif" alt=""><figcaption></figcaption></figure>
+
+Explore breakdown tables (i.e., aggregate tables such as by subject, journal, or year; not article-level ones) of any size can now be sorted, up from the previous limit of 2,000 rows. The one exception is percentage columns in tables of over 40,000 rows, which currently only affects the largest author tables; however, switching to the Count view enables their sorting.
+
+Rows with the same value now stay in the order of the previously selected sort.
+{% endupdate %}
+
 {% if visitor.claims.unsigned.org === "michael-j-fox-foundation" %}
 {% update date="2026-11-04" tags="added,michael-j.-fox-foundation" %}
-## Open Access preprints figure added to Insights
+## Open Access preprint figure added to Insights
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2026-11-15 at 21.42.29@2x.png" alt=""><figcaption></figcaption></figure>
 {% endupdate %}
 {% endif %}
 
@@ -56,6 +66,6 @@ A Reset sort button appears once a table has been sorted, and returns it to its 
 
 ## Columns removed from Explore breakdown tables
 
-To declutter Explore tables and focus on figures we can keep accurate and up to date, we’ve removed the data, code, and identifier columns. These include shared data and code, Open Data and Open Code, ORCIDs, RORs, and grant DOIs.
+To declutter Explore tables and focus on accurate and up-to-date figures, data, code, and identifier columns have been removed. These include shared data and code, Open Data and Open Code, ORCIDs, RORs, and grant DOIs.
 {% endupdate %}
 {% endupdates %}
