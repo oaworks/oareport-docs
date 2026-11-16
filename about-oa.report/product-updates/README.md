@@ -17,7 +17,7 @@ This may cause other figures to vary for a few days while other processes catch 
 {% endupdate %}
 {% endif %}
 
-{% update date="2026-11-15" tags="changed" %}
+{% update date="2026-11-16" tags="changed" %}
 ## Explore breakdown tables can be sorted at larger sizes
 
 <figure><img src="../../.gitbook/assets/CleanShot 2026-11-15 at 21.45.57.gif" alt=""><figcaption></figcaption></figure>
