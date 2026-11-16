@@ -7,6 +7,16 @@ description: >-
 # Product updates
 
 {% updates format="full" %}
+{% if visitor.claims.unsigned.org === "wellcome" %}
+{% update date="2026-11-16" tags="wellcome-trust,added" %}
+## 17,000 works re-added
+
+Adding \~17,0000 works previously excluded due to concerns about high rates of false positives in Europe PMC data. This batch contains works we have high confidence are funded by Wellcome including based on Crossref metadata, mentions of Wellcome in acknowledgement statements, and excludes works where we can see the Grant ID Europe PMC provided is attributed to other funders in other sources.
+
+This may cause other figures to vary for a few days while other processes catch up.
+{% endupdate %}
+{% endif %}
+
 {% update date="2026-11-15" tags="changed" %}
 ## Explore breakdown tables can be sorted at larger sizes
 
