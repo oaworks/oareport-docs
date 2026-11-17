@@ -8,6 +8,12 @@ description: >-
 
 {% updates format="full" %}
 {% if visitor.claims.unsigned.org === "wellcome" %}
+{% update date="2026-11-17" tags="added,wellcome-trust" %}
+## OA.Report fully configured to support post publication check
+
+OA.Report has been fully configured to send and track actions for the post publication check.
+{% endupdate %}
+
 {% update date="2026-11-16" tags="wellcome-trust,added" %}
 ## 17,000 works re-added
 
