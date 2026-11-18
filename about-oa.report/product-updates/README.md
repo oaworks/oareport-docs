@@ -8,6 +8,12 @@ description: >-
 
 {% updates format="full" %}
 {% if visitor.claims.unsigned.org === "wellcome" %}
+{% update date="2026-11-18" tags="fixed,wellcome-trust" %}
+## \~3400 false positives removed
+
+Removed \~3400 works wrongly included. Works were included over the past ten years, and had little (<1%) to no impact on aggregate figures.
+{% endupdate %}
+
 {% update date="2026-11-17" tags="added,wellcome-trust" %}
 ## OA.Report fully configured to support post publication check
 
