@@ -11,7 +11,7 @@ description: >-
 {% update date="2026-11-18" tags="fixed,wellcome-trust" %}
 ## \~3400 false positives removed
 
-Removed \~3400 works wrongly included. Works were included over the past ten years, and had little (<1%) to no impact on aggregate figures.
+Removed \~3400 works wrongly included in mid October. Works were included over the past ten years, and had little (<1%) to no impact on aggregate figures.
 {% endupdate %}
 
 {% update date="2026-11-17" tags="added,wellcome-trust" %}
